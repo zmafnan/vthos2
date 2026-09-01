@@ -61,17 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/bin/typec_capture_headset.sh:$(TARGET_COPY_OUT_VENDOR)/bin/typec_capture_headset.sh \
     vendor/xiaomi/aristotle/proprietary/vendor/bin/typec_playback_headset.sh:$(TARGET_COPY_OUT_VENDOR)/bin/typec_playback_headset.sh \
     vendor/xiaomi/aristotle/proprietary/vendor/data/model/AIHDR.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/AIHDR.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR144*256.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR144*256.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR240*432.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR240*432.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR270*480.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR270*480.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR360*640.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR360*640.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR376*896.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR376*896.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR450*800.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR450*800.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR480*864.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR480*864.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR486*864.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR486*864.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR504*896.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR504*896.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR540*960.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR540*960.dla \
-    vendor/xiaomi/aristotle/proprietary/vendor/data/model/SR720*1280.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/SR720*1280.dla \
     vendor/xiaomi/aristotle/proprietary/vendor/data/model/scene_detection.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/scene_detection.dla \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/1-SN1X0_SPC.txt:$(TARGET_COPY_OUT_VENDOR)/etc/1-SN1X0_SPC.txt \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
