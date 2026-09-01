@@ -8,9 +8,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/odm/etc/cit_param_config.json:$(TARGET_COPY_OUT_ODM)/etc/cit_param_config.json \
     vendor/xiaomi/aristotle/proprietary/odm/etc/default_cloud.json:$(TARGET_COPY_OUT_ODM)/etc/default_cloud.json \
     vendor/xiaomi/aristotle/proprietary/odm/etc/device_info_qr_config.yml:$(TARGET_COPY_OUT_ODM)/etc/device_info_qr_config.yml \
-    vendor/xiaomi/aristotle/proprietary/odm/etc/group:$(TARGET_COPY_OUT_ODM)/etc/group \
     vendor/xiaomi/aristotle/proprietary/odm/etc/init/mrm_mitee.rc:$(TARGET_COPY_OUT_ODM)/etc/init/mrm_mitee.rc \
-    vendor/xiaomi/aristotle/proprietary/odm/etc/passwd:$(TARGET_COPY_OUT_ODM)/etc/passwd \
     vendor/xiaomi/aristotle/proprietary/odm/etc/setting.xml:$(TARGET_COPY_OUT_ODM)/etc/setting.xml \
     vendor/xiaomi/aristotle/proprietary/system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.audio.parameter_parser.service.rc \
     vendor/xiaomi/aristotle/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
@@ -401,7 +399,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/group:$(TARGET_COPY_OUT_VENDOR)/etc/group \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/hrtf5c.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hrtf5c.bin \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init.insmod.mt6895.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6895.cfg \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init.panel_info.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.panel_info.sh \
@@ -633,7 +630,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/nn/ot/neuron_tracking.mdla3_0:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_tracking.mdla3_0 \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/passwd:$(TARGET_COPY_OUT_VENDOR)/etc/passwd \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/android.hardware.camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.xml \
@@ -683,7 +679,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/vendor.xiaomi.sensor.citsensorservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.xiaomi.sensor.citsensorservice.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
@@ -1273,8 +1268,6 @@ PRODUCT_PACKAGES += \
     autobt \
     batterysecret \
     bip_ap \
-    boringssl_self_test32 \
-    boringssl_self_test64 \
     bt_dump \
     camerahalserver \
     camerahalserver_bin \
@@ -1335,7 +1328,6 @@ PRODUCT_PACKAGES += \
     gsm0710muxd \
     hwcomposer.mtk_common \
     ioprofiler \
-    iperf \
     ipsec_mon \
     iw-vendor \
     iwconfig \
@@ -2158,7 +2150,6 @@ PRODUCT_PACKAGES += \
     soterd \
     sound_trigger.primary.default \
     stp_dump3 \
-    tcpdump-vendor \
     tee-supplicant \
     testgameserver \
     tetheroffloadservice \
