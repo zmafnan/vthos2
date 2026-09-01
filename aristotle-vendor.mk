@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db \
     vendor/xiaomi/aristotle/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db \
     vendor/xiaomi/aristotle/proprietary/vendor/bin/headset_detect.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_detect.sh \
-    vendor/xiaomi/aristotle/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     vendor/xiaomi/aristotle/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
     vendor/xiaomi/aristotle/proprietary/vendor/bin/playback.sh:$(TARGET_COPY_OUT_VENDOR)/bin/playback.sh \
     vendor/xiaomi/aristotle/proprietary/vendor/bin/playback_headset.sh:$(TARGET_COPY_OUT_VENDOR)/bin/playback_headset.sh \
@@ -1028,8 +1027,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-service.mediatek \
     android.hardware.gnss_2.1-impl-mediatek \
     android.hardware.graphics.allocator_4.0-impl-mediatek \
-    android.hardware.graphics.allocator_4.0-service-mediatek.mt6895 \
-    android.hardware.graphics.allocator_4.0-service-mediatek.mt6895_bin \
+    android.hardware.graphics.allocator@4.0-service-mediatek.mt6895 \
     android.hardware.graphics.mapper_4.0-impl-mediatek \
     android.hardware.lights-service.mediatek \
     android.hardware.media.c2_1.2-mediatek \
@@ -2119,6 +2117,7 @@ PRODUCT_PACKAGES += \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_mt6895_top_control_data.db \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_pd_mt6895_ParameterDB_pd.db \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_pipeline_mt6895_ParameterDB_pipeline.db \
+    vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_tone_mt6895_ParameterDB_tone.db \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_aristotleimx596_mipi_raw_mt6895_ISP_mapping.db \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_aristotleimx596_mipi_raw_mt6895_ISP_param.db \

@@ -17311,18 +17311,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.graphics.allocator_4.0-service-mediatek.mt6895",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.lights-service.mediatek",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.lights-service.mediatek"],
@@ -17467,7 +17455,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.graphics.allocator_4.0-service-mediatek.mt6895_bin",
+    name: "android.hardware.graphics.allocator@4.0-service-mediatek.mt6895",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/mt6895/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895"],
     check_elf_files: false,
@@ -17475,6 +17463,7 @@ cc_prebuilt_binary {
         none: true,
     },
     compile_multilib: "64",
+    relative_install_path: "hw/mt6895",
     soc_specific: true,
 }
 
@@ -18640,6 +18629,13 @@ cc_prebuilt_binary {
     },
     compile_multilib: "64",
     soc_specific: true,
+}
+
+install_symlink {
+    name: "vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek",
+    soc_specific: true,
+    installed_location: "bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek",
+    symlink_target: "/vendor/bin/hw/mt6895/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895",
 }
 
 install_symlink {
