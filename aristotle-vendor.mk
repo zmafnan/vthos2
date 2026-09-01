@@ -8,8 +8,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/odm/etc/cit_param_config.json:$(TARGET_COPY_OUT_ODM)/etc/cit_param_config.json \
     vendor/xiaomi/aristotle/proprietary/odm/etc/default_cloud.json:$(TARGET_COPY_OUT_ODM)/etc/default_cloud.json \
     vendor/xiaomi/aristotle/proprietary/odm/etc/device_info_qr_config.yml:$(TARGET_COPY_OUT_ODM)/etc/device_info_qr_config.yml \
-    vendor/xiaomi/aristotle/proprietary/odm/etc/fs_config_dirs:$(TARGET_COPY_OUT_ODM)/etc/fs_config_dirs \
-    vendor/xiaomi/aristotle/proprietary/odm/etc/fs_config_files:$(TARGET_COPY_OUT_ODM)/etc/fs_config_files \
     vendor/xiaomi/aristotle/proprietary/odm/etc/group:$(TARGET_COPY_OUT_ODM)/etc/group \
     vendor/xiaomi/aristotle/proprietary/odm/etc/init/mrm_mitee.rc:$(TARGET_COPY_OUT_ODM)/etc/init/mrm_mitee.rc \
     vendor/xiaomi/aristotle/proprietary/odm/etc/passwd:$(TARGET_COPY_OUT_ODM)/etc/passwd \
@@ -72,8 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/RES1K.wav:$(TARGET_COPY_OUT_VENDOR)/etc/RES1K.wav \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/VideoLog_dynamic.ds:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.ds \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/aee-commit:$(TARGET_COPY_OUT_VENDOR)/etc/aee-commit \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/apdb/APDB_MT6895___W2230:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6895___W2230 \
@@ -194,12 +190,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_disabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_hifi3.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml \
@@ -370,7 +364,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/camera/xiaomiSceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomiSceneDetection.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/cust_color.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/default_pd_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/default_pd_calibration.bin \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/df_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/df_default.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
@@ -388,8 +381,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_dirs \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/fs_config_files:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_files \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
@@ -633,7 +624,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_spk.bin \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/misound_res_spk_bypass.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_spk_bypass.bin \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/misound_res_spk_powerop.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_spk_powerop.bin \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
@@ -650,7 +640,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/android.hardware.faketouch.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.faketouch.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/android.hardware.keystore.app_attest_key.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/permissions/android.hardware.microphone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.microphone.xml \
@@ -700,7 +689,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/rcv.wav:$(TARGET_COPY_OUT_VENDOR)/etc/rcv.wav \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/rcv_pink.wav:$(TARGET_COPY_OUT_VENDOR)/etc/rcv_pink.wav \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/rsc/CN/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/CN/ro.prop \
@@ -714,9 +702,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/screen_light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/screen_light.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
@@ -873,17 +858,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/plat_pub_versioned.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_pub_versioned.cil \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/plat_sepolicy_vers.txt:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_sepolicy_vers.txt \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/selinux_denial_metadata:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/selinux_denial_metadata \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/vendor_file_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_file_contexts \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/vendor_hwservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_hwservice_contexts \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/vendor_mac_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_mac_permissions.xml \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/vendor_property_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_property_contexts \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/vendor_seapp_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_seapp_contexts \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/vendor_sepolicy.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_sepolicy.cil \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/vendor_service_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_service_contexts \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/vndservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vndservice_contexts \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/sensor_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_diag.cfg \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/sensors/lightSensorCali.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/lightSensorCali.json \
@@ -918,7 +893,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/spk_cal_silence.wav:$(TARGET_COPY_OUT_VENDOR)/etc/spk_cal_silence.wav \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/spk_hp.wav:$(TARGET_COPY_OUT_VENDOR)/etc/spk_hp.wav \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/stereo.wav:$(TARGET_COPY_OUT_VENDOR)/etc/stereo.wav \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/thermal-4k.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-4k.conf \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
@@ -962,10 +936,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/top_spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/top_spk.wav \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/tp_kmsg_init_aristotle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/tp_kmsg_init_aristotle.sh \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/ultrasound.wav:$(TARGET_COPY_OUT_VENDOR)/etc/ultrasound.wav \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
@@ -974,7 +946,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/wifi/passpointProfile.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/passpointProfile.conf \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/xgf.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/xgf.cfg \
     vendor/xiaomi/aristotle/proprietary/vendor/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/0_click_P_RTP.bin \
@@ -1244,179 +1215,43 @@ PRODUCT_PACKAGES += \
     aee_aedv64_v2 \
     aee_dumpstatev_v2 \
     aeev_v2 \
-    android.frameworks.displayservice_1.0 \
-    android.frameworks.sensorservice_1.0 \
-    android.hardware.audio.common_5.0 \
-    android.hardware.audio.common_6.0 \
-    android.hardware.audio.common_6.0-util \
-    android.hardware.audio.common_7.0 \
-    android.hardware.audio.common_7.0-enums \
-    android.hardware.audio.common_7.0-util \
-    android.hardware.audio.common_7.1-enums \
-    android.hardware.audio.common_7.1-util \
-    android.hardware.audio.effect_6.0 \
-    android.hardware.audio.effect_6.0-impl \
-    android.hardware.audio.effect_6.0-util \
-    android.hardware.audio.effect_7.0 \
-    android.hardware.audio.effect_7.0-impl \
-    android.hardware.audio.effect_7.0-util \
     android.hardware.audio.parameter_parser.service \
-    android.hardware.audio_6.0 \
     android.hardware.audio_6.0-impl-mediatek \
-    android.hardware.audio_7.0 \
     android.hardware.audio_7.0-impl-mediatek \
-    android.hardware.audio_7.0-util \
-    android.hardware.audio_7.1 \
     android.hardware.audio_7.1-impl-mediatek \
-    android.hardware.audio_7.1-util \
-    android.hardware.biometrics.fingerprint_2.1 \
-    android.hardware.bluetooth.audio_2.0 \
-    android.hardware.bluetooth.audio_2.0-impl \
-    android.hardware.bluetooth.audio_2.1 \
-    android.hardware.bluetooth.audio_2.1-impl \
-    android.hardware.bluetooth_1.0 \
-    android.hardware.bluetooth_1.1 \
     android.hardware.bluetooth_1.1-impl-mediatek \
     android.hardware.bluetooth_1.1-service-mediatek \
-    android.hardware.boot_1.0 \
     android.hardware.boot_1.0-impl-1.2-mtkimpl \
-    android.hardware.boot_1.1 \
-    android.hardware.boot_1.2 \
     android.hardware.camera.common-V1-ndk_platform \
-    android.hardware.camera.common_1.0 \
     android.hardware.camera.device-V1-ndk_platform \
-    android.hardware.camera.device_1.0 \
-    android.hardware.camera.device_3.2 \
-    android.hardware.camera.device_3.3 \
-    android.hardware.camera.device_3.4 \
-    android.hardware.camera.device_3.5 \
-    android.hardware.camera.device_3.6 \
     android.hardware.camera.metadata-V1-ndk_platform \
     android.hardware.camera.provider-V1-ndk_platform \
-    android.hardware.camera.provider_2.4 \
-    android.hardware.camera.provider_2.5 \
-    android.hardware.camera.provider_2.6 \
     android.hardware.camera.provider_2.6-impl-mediatek \
-    android.hardware.cas.native_1.0 \
-    android.hardware.cas_1.0 \
-    android.hardware.cas_1.1 \
-    android.hardware.cas_1.2 \
-    android.hardware.drm_1.0 \
-    android.hardware.drm_1.1 \
-    android.hardware.drm_1.2 \
-    android.hardware.drm_1.3 \
-    android.hardware.drm_1.4 \
     android.hardware.drm_1.4-service.clearkey \
     android.hardware.drm_1.4-service.widevine \
-    android.hardware.dumpstate_1.0 \
-    android.hardware.dumpstate_1.1 \
     android.hardware.dumpstate_1.1-service.xiaomi \
-    android.hardware.gatekeeper_1.0 \
-    android.hardware.gatekeeper_1.0-impl \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss-service.mediatek \
-    android.hardware.gnss.measurement_corrections_1.0 \
-    android.hardware.gnss.measurement_corrections_1.1 \
-    android.hardware.gnss.visibility_control_1.0 \
-    android.hardware.gnss_1.0 \
-    android.hardware.gnss_1.1 \
-    android.hardware.gnss_2.0 \
-    android.hardware.gnss_2.1 \
     android.hardware.gnss_2.1-impl-mediatek \
     android.hardware.graphics.allocator_4.0-impl-mediatek \
     android.hardware.graphics.allocator_4.0-service-mediatek.mt6895 \
     android.hardware.graphics.allocator_4.0-service-mediatek.mt6895_bin \
-    android.hardware.graphics.composer_2.1 \
-    android.hardware.graphics.composer_2.1-resources \
-    android.hardware.graphics.composer_2.2 \
-    android.hardware.graphics.composer_2.2-resources \
-    android.hardware.graphics.composer_2.3 \
     android.hardware.graphics.mapper_4.0-impl-mediatek \
-    android.hardware.health_1.0 \
-    android.hardware.health_2.0 \
     android.hardware.health_2.0-impl-2.1 \
-    android.hardware.health_2.1 \
-    android.hardware.ir_1.0 \
-    android.hardware.ir_1.0-impl \
-    android.hardware.keymaster_3.0 \
-    android.hardware.keymaster_4.0 \
-    android.hardware.light_2.0 \
     android.hardware.lights-service.mediatek \
-    android.hardware.media.c2_1.0 \
-    android.hardware.media.c2_1.1 \
-    android.hardware.media.c2_1.2 \
     android.hardware.media.c2_1.2-mediatek \
     android.hardware.media.c2_1.2-mediatek-64b \
     android.hardware.neuralnetworks-shim-service-mtk \
-    android.hardware.nfc_1.0 \
-    android.hardware.nfc_1.1 \
-    android.hardware.nfc_1.2 \
     android.hardware.power-service-mediatek \
-    android.hardware.power_1.0 \
-    android.hardware.power_1.1 \
-    android.hardware.power_1.2 \
-    android.hardware.radio.config_1.0 \
-    android.hardware.radio.config_1.1 \
-    android.hardware.radio.config_1.2 \
-    android.hardware.radio.config_1.3 \
-    android.hardware.radio_1.0 \
-    android.hardware.radio_1.1 \
-    android.hardware.radio_1.2 \
-    android.hardware.radio_1.3 \
-    android.hardware.radio_1.4 \
-    android.hardware.radio_1.5 \
-    android.hardware.radio_1.6 \
-    android.hardware.renderscript_1.0-impl \
-    android.hardware.secure_element_1.0 \
-    android.hardware.secure_element_1.1 \
-    android.hardware.secure_element_1.2 \
     android.hardware.secure_element_1.2-service-mediatek \
     android.hardware.security.keymint_1.0-service.mitee \
-    android.hardware.sensors_1.0 \
-    android.hardware.sensors_2.0 \
-    android.hardware.sensors_2.0-ScopedWakelock \
-    android.hardware.sensors_2.1 \
     android.hardware.sensors_2.1-service.multihal-mediatek \
     android.hardware.sensors_2.X-subhal-mediatek \
-    android.hardware.soundtrigger_2.1 \
-    android.hardware.soundtrigger_2.2 \
-    android.hardware.soundtrigger_2.3 \
-    android.hardware.soundtrigger_2.3-impl \
-    android.hardware.tetheroffload.config_1.0 \
-    android.hardware.tetheroffload.control_1.0 \
-    android.hardware.tetheroffload.control_1.1 \
-    android.hardware.thermal_1.0 \
-    android.hardware.thermal_1.0-impl \
-    android.hardware.thermal_2.0 \
     android.hardware.thermal_2.0-impl \
     android.hardware.thermal_2.0-service.mtk \
-    android.hardware.usb.gadget_1.0 \
-    android.hardware.usb.gadget_1.1 \
-    android.hardware.usb_1.0 \
-    android.hardware.usb_1.1 \
-    android.hardware.usb_1.2 \
     android.hardware.usb_1.2-service-mediatekv2 \
-    android.hardware.usb_1.3 \
     android.hardware.vibrator-V1-ndk_platform \
-    android.hardware.wifi.hostapd_1.0 \
-    android.hardware.wifi.hostapd_1.1 \
-    android.hardware.wifi.hostapd_1.2 \
-    android.hardware.wifi.hostapd_1.3 \
-    android.hardware.wifi.supplicant_1.0 \
-    android.hardware.wifi.supplicant_1.1 \
-    android.hardware.wifi.supplicant_1.2 \
-    android.hardware.wifi.supplicant_1.3 \
-    android.hardware.wifi.supplicant_1.4 \
-    android.hardware.wifi_1.0 \
     android.hardware.wifi_1.0-service-lazy \
-    android.hardware.wifi_1.1 \
-    android.hardware.wifi_1.2 \
-    android.hardware.wifi_1.3 \
-    android.hardware.wifi_1.4 \
-    android.hardware.wifi_1.5 \
-    android.hidl.allocator_1.0 \
-    android.hidl.memory.block_1.0 \
-    android.system.wifi.keystore_1.0 \
     androidx.camera.extensions.impl \
     aristotleimx596_mipi_raw_IdxMgr \
     aristotleimx596_mipi_raw_tuning \
@@ -1429,7 +1264,6 @@ PRODUCT_PACKAGES += \
     arm.graphics-V1-ndk_platform \
     atci_service \
     atcid \
-    audio.bluetooth.default \
     audio.primary.mediatek \
     audio.r_submix.mediatek \
     audio.r_submix.mt6895 \
@@ -1565,14 +1399,12 @@ PRODUCT_PACKAGES += \
     libNewMuraTest_new \
     libNoFpsActor \
     libOemcrypto_Hal \
-    libOpenCL \
     libSMBlemishAnalysis_new \
     libSQLiteModule_VER_ALL \
     libSoftGatekeeper \
     libSonyIMX519PdafWrapper \
     libTEECommon \
     libVkLayer_mtk_rt_sdk \
-    lib_android_keymaster_keymint_utils \
     lib_bsscore \
     lib_eara_io_scndet \
     lib_eara_io_service \
@@ -1625,7 +1457,6 @@ PRODUCT_PACKAGES += \
     libalgo.aosp.log \
     libalgobaseutils \
     libalhLDC \
-    libalsautils \
     libanc_calibration_parser \
     libanc_supervq \
     libapmonitor_vendor \
@@ -1648,13 +1479,11 @@ PRODUCT_PACKAGES += \
     libarcsoft_super_night_raw \
     libarcsoft_super_night_raw_front \
     libarcsoft_super_night_raw_wrap \
-    libarmnn \
     libarmnn_ndk.mtk.vndk \
     libasn1c_core \
     libasn1c_mapi \
     libasn1c_mdmi \
     libaudio_param_parser-vnd \
-    libaudioclient_aidl_conversion \
     libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
     libaudiocomponentengine_vendor \
@@ -1662,19 +1491,15 @@ PRODUCT_PACKAGES += \
     libaudiocustparam_vendor \
     libaudiodcrflt_vendor \
     libaudiofmtconv \
-    libaudiofoundation \
     libaudioloudc \
-    libaudiopreprocessing \
     libaudiopreprocessing_mtk \
     libaudioprimarydevicehalifclient \
     libaudiosmartpamtk \
     libaudiotoolkit_vendor \
     libaurisysdemo \
-    libavservices_minijail \
     libawinicsmartpaparse \
     libbeauty_face_interface \
     libbessound_hd_mtk_vendor \
-    libbinderdebug \
     libblisrc32_vendor \
     libbluetooth_audio_session_mediatek \
     libbluetooth_hw_test \
@@ -1682,7 +1507,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_mtk_pure \
     libbluetooth_relayer \
     libbluetoothem_mtk \
-    libbundlewrapper \
     libbwc \
     libc___shared \
     libcam.3a_isp.utils \
@@ -1801,20 +1625,13 @@ PRODUCT_PACKAGES += \
     libcdsprpc \
     libceres \
     libcheckpid \
-    libchrome \
-    libclearkeycasplugin \
     libclient2slpi.notifier \
     libcmdl \
     libcmdl_ndk.mtk.vndk \
-    libcodec2_hidl_1.0 \
-    libcodec2_hidl_1.1 \
-    libcodec2_hidl_1.2 \
-    libcodec2_hidl_plugin \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
     libcodec2_soft_ac4dec_3_8_5 \
-    libcodec2_soft_common \
     libcodec2_soft_ddpdec_3_8_5 \
     libcodec2_soft_mtk_alacdec \
     libcodec2_soft_mtk_apedec \
@@ -1822,7 +1639,6 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_mtk_mp3dec \
     libcodec2_soft_mtk_msadpcmdec \
     libcodec2_store_dolby_3_8_5 \
-    libcodec2_vndk \
     libcodec2_vpp_dolby_plugin \
     libcodec2_vpp_dump_mtk_yuv_plugin \
     libcodec2_vpp_gc_plugin \
@@ -1841,8 +1657,6 @@ PRODUCT_PACKAGES += \
     libcomposer_ext \
     libcomutils \
     libconnfem \
-    libcppbor_external \
-    libcppcose_rkp \
     libcustom_nvram \
     libcvsd_mtk \
     libdapparamstorage_3_8_5 \
@@ -1860,17 +1674,10 @@ PRODUCT_PACKAGES += \
     libdolbyeglplugin \
     libdolbyottcameracontrol \
     libdolbyplugin \
-    libdownmix \
     libdpframework \
     libdre \
-    libdrm \
-    libdrmclearkeyplugin \
     libdynamiclog \
-    libdynproc \
     libeffecthal.base \
-    libeffectproxy \
-    libeffects \
-    libeffectsconfig \
     libellv \
     libeyecare \
     libfeature.face \
@@ -1892,7 +1699,6 @@ PRODUCT_PACKAGES += \
     libfgauge_gm30 \
     libfile_op \
     libflash_compare \
-    libflatbuffers-cpp \
     libflatmode \
     libforkexecwrap \
     libformatter \
@@ -1915,18 +1721,15 @@ PRODUCT_PACKAGES += \
     libh264dec_sd.ca7 \
     libh264dec_se.ca7 \
     libh264enc_sa.ca7 \
-    libhapticgenerator \
     libhdrmode \
     libhdrvideo \
     libheichal \
     libhevce_sb.ca7.android \
     libhfmanager \
     libhfmanagerwrapper \
-    libhidltransport \
     libhis_face_tracking \
     libhis_motion_tracker \
     libhmp_custom \
-    libhwbinder \
     libhwm \
     libicd_decoder \
     libifcutils_mtk \
@@ -1958,20 +1761,12 @@ PRODUCT_PACKAGES += \
     libispfeature_mtkcam.v4l2 \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libkeymaster_messages \
-    libkeymaster_portable \
-    libkeymint \
-    libkeystore-engine-wifi-hidl \
-    libkeystore-wifi-hidl \
     libkmsetkey \
     libksensor \
     libladder \
-    libldnhncr \
     liblogwrap_vendor \
     liblpnr \
     libmdla_ut \
-    libmediautils_vendor \
-    libmemunreachable \
     libmfido_mitee \
     libmfllcore \
     libmgr3a.adapt \
@@ -2019,7 +1814,6 @@ PRODUCT_PACKAGES += \
     libmmprofile \
     libmnetlink_v104 \
     libmnl \
-    libmockdrmcryptoplugin \
     libmorpho_video_stabilizer \
     libmp3dec_mtk \
     libmp4enc_sa.ca7 \
@@ -2170,7 +1964,6 @@ PRODUCT_PACKAGES += \
     libmvpu_runtime_pub \
     libmvpuop_mtk_cv \
     libmvpuop_mtk_nn \
-    libnbaio_mono \
     libneuralnetworks_sl_driver_mtk_prebuilt \
     libneuroeara \
     libneuron_adapter_mgvi \
@@ -2181,7 +1974,6 @@ PRODUCT_PACKAGES += \
     libneuropilot_hal_utils \
     libnir_neon_driver \
     libnir_neon_driver_ndk.mtk.vndk \
-    libnl \
     libnpagent \
     libnpagent_server \
     libnvram \
@@ -2191,10 +1983,7 @@ PRODUCT_PACKAGES += \
     libnxpsmartpaparser \
     liboem_specific_3_8_5 \
     liboemcrypto \
-    libomp \
-    libopus \
     libpaperMode \
-    libpcap \
     libpda_usdriver \
     libpixelflinger \
     libpkm \
@@ -2208,33 +1997,25 @@ PRODUCT_PACKAGES += \
     libpqpconfig \
     libprotobuf-cpp-full-3.9.1 \
     libprotobuf-cpp-lite-3.9.1 \
-    libpuresoftkeymasterdevice \
     libratconfig \
     librcs_interface \
     librcs_volte_core \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
-    libreverbwrapper \
     librfs_warp \
     librgbwlightsensor \
     librilfusion \
     librpc \
     librt_extamp_intf \
-    libruy \
     libscltm \
     libsdr2hdr \
     libsensor_cal \
-    libsensorndkbridge \
-    libsfplugin_ccodec_utils \
-    libshmemcompat \
-    libshmemutil \
     libsignal \
     libsimlock \
     libsimmelock \
     libsmartcharging \
     libsn100u_fw \
-    libsoft_attestation_cert \
     libsoter \
     libsource \
     libspatializer \
@@ -2243,10 +2024,6 @@ PRODUCT_PACKAGES += \
     libspeechparser_vendor \
     libsre \
     libssccalapi \
-    libstagefright_amrnb_common \
-    libstagefright_bufferpool_2.0.1 \
-    libstagefright_enc_common \
-    libstagefright_flacdec \
     libstagefright_soft_aacdec \
     libstagefright_soft_aacenc \
     libstagefright_soft_amrdec \
@@ -2268,8 +2045,6 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vorbisdec \
     libstagefright_soft_vpxdec \
     libstagefright_soft_vpxenc \
-    libstagefright_softomx \
-    libstagefright_softomx_plugin \
     libstereoinfoaccessor_vsdof \
     libstorage_otp \
     libswdap_3_8_5 \
@@ -2279,10 +2054,8 @@ PRODUCT_PACKAGES += \
     libswvqe_3_8_5 \
     libsysenv \
     libteecli \
-    libtextclassifier_hash \
     libtflite_mtk \
     libthha \
-    libtinycompress \
     libtranslator_mapi_v3.0 \
     libtranslator_mdmi_v2.8.2 \
     libtranslator_utils \
@@ -2302,14 +2075,11 @@ PRODUCT_PACKAGES += \
     libvia-ril \
     libviagpsrpc \
     libviamipc-ril \
-    libvibrator \
     libvideoBokeh \
     libvideofilter_only \
     libvideomode \
     libvidhance \
-    libvisualizer \
     libvoiprec \
-    libvorbisidec \
     libvow_ap_test_aa \
     libvow_ap_test_dd \
     libvow_ap_test_ha \
@@ -2321,21 +2091,18 @@ PRODUCT_PACKAGES += \
     libvpu \
     libvpu5 \
     libvpud_vcodec \
-    libvpx \
     libvt_avsync \
     libwa_opticalzoomfactor \
     libwa_sat \
     libwapi \
-    libwifi-hal \
+    libwifi-hal-mtk \
     libwifitest \
-    libwpa_client \
     libwpfa \
     libwvdrmengine \
     libwvhidl \
     libwvkeybox \
     libwvkeyboxext \
     libxlog \
-    libz_stable \
     loghidlvendorservice \
     ls_nq_client-v1 \
     mcfota_service \
@@ -2463,10 +2230,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms_1.6 \
     vendor.mediatek.hardware.mms_1.6-impl \
     vendor.mediatek.hardware.mms_1.6-service \
-    vendor.mediatek.hardware.mtkpower_1.0 \
     vendor.mediatek.hardware.mtkpower_1.0-service \
-    vendor.mediatek.hardware.mtkpower_1.1 \
-    vendor.mediatek.hardware.mtkpower_1.2 \
     vendor.mediatek.hardware.mtkpower_1.2-impl \
     vendor.mediatek.hardware.mtkradioex_2.0 \
     vendor.mediatek.hardware.mtkradioex_3.0 \
@@ -2517,14 +2281,10 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.cld_1.0 \
     vendor.xiaomi.hardware.cld_1.0-impl \
     vendor.xiaomi.hardware.cld_1.0-service \
-    vendor.xiaomi.hardware.displayfeature_1.0 \
     vendor.xiaomi.hardware.displayfeature_1.0-impl \
     vendor.xiaomi.hardware.displayfeature_1.0-service \
     vendor.xiaomi.hardware.dtool_1.0 \
     vendor.xiaomi.hardware.dtool_1.0-service \
-    vendor.xiaomi.hardware.fingerprintextension_1.0 \
-    vendor.xiaomi.hardware.fx.tunnel_1.0 \
-    vendor.xiaomi.hardware.mfidoca_1.0 \
     vendor.xiaomi.hardware.micharge_1.0 \
     vendor.xiaomi.hardware.micharge_1.0-impl \
     vendor.xiaomi.hardware.micharge_1.0-service \
@@ -2546,13 +2306,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys_4.0 \
     vendor.xiaomi.hardware.misys_4.0-impl \
     vendor.xiaomi.hardware.misys_4.0-service \
-    vendor.xiaomi.hardware.mlipay_1.0 \
-    vendor.xiaomi.hardware.mlipay_1.1 \
     vendor.xiaomi.hardware.mrm-V1-ndk_platform \
-    vendor.xiaomi.hardware.mtdservice_1.0 \
-    vendor.xiaomi.hardware.mtdservice_1.1 \
-    vendor.xiaomi.hardware.mtdservice_1.2 \
-    vendor.xiaomi.hardware.mtdservice_1.3 \
     vendor.xiaomi.hardware.secure_element_1.2-service \
     vendor.xiaomi.hardware.soterservice_1.0 \
     vendor.xiaomi.hardware.vibratorfeature.service \
@@ -2562,7 +2316,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hidl.miwill_1.0 \
     vendor.xiaomi.hidl.miwill_1.0-impl \
     vendor.xiaomi.hidl.miwill_1.0-service \
-    vendor.xiaomi.hw.touchfeature_1.0 \
     vendor.xiaomi.hw.touchfeature_1.0-impl \
     vendor.xiaomi.hw.touchfeature_1.0-service \
     vendor.xiaomi.sensor.citsensorservice_1.1 \

@@ -62,307 +62,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.frameworks.displayservice_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.frameworks.displayservice@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.frameworks.sensorservice_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.frameworks.sensorservice@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.frameworks.sensorservice@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common_5.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.common@5.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.common@5.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common_6.0-util",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.common@6.0-util.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.common@6.0-util.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common_6.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.common@6.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.common@6.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common_7.0-enums",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.common@7.0-enums.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.common@7.0-enums.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common_7.0-util",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.common@7.0-util.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.common@7.0-util.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common_7.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.common@7.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.common@7.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common_7.1-enums",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.common@7.1-enums.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.common@7.1-enums.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common_7.1-util",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.common@7.1-util.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.common@7.1-util.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.effect_6.0-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.effect_6.0-util",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.effect@6.0-util.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.effect@6.0-util.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.effect_6.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.effect@6.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.effect@6.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.effect_7.0-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.effect_7.0-util",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.effect@7.0-util.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.effect@7.0-util.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.effect_7.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio.effect@7.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio.effect@7.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.audio_6.0-impl-mediatek",
     owner: "xiaomi",
     strip: {
@@ -375,25 +74,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio_6.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio@6.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio@6.0.so"],
         },
     },
     check_elf_files: false,
@@ -420,44 +100,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.audio_7.0-util",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio@7.0-util.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio@7.0-util.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio_7.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio@7.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio@7.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.audio_7.1-impl-mediatek",
     owner: "xiaomi",
     strip: {
@@ -470,155 +112,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@7.1-impl-mediatek.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio_7.1-util",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio@7.1-util.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio@7.1-util.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio_7.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.audio@7.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.audio@7.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.biometrics.fingerprint_2.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth.audio_2.0-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth.audio_2.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.bluetooth.audio@2.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.bluetooth.audio@2.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth.audio_2.1-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth.audio_2.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.bluetooth.audio@2.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.bluetooth.audio@2.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.bluetooth@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.bluetooth@1.0.so"],
         },
     },
     check_elf_files: false,
@@ -645,25 +138,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.bluetooth@1.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.bluetooth@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.boot_1.0-impl-1.2-mtkimpl",
     owner: "xiaomi",
     strip: {
@@ -676,63 +150,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.boot_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.boot@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.boot@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.boot_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.boot@1.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.boot@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.boot_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.boot@1.2.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.boot@1.2.so"],
         },
     },
     check_elf_files: false,
@@ -756,22 +173,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.camera.common_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.camera.common@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.camera.device-V1-ndk_platform",
     owner: "xiaomi",
     strip: {
@@ -781,102 +182,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/android.hardware.camera.device-V1-ndk_platform.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.device_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.camera.device@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.device_3.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.camera.device@3.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.device_3.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.camera.device@3.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.device_3.4",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.camera.device@3.4.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.device_3.5",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.camera.device@3.5.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.device_3.6",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.camera.device@3.6.so"],
         },
     },
     check_elf_files: false,
@@ -916,38 +221,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.camera.provider_2.4",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.provider_2.5",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.camera.provider@2.5.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider_2.6-impl-mediatek",
     owner: "xiaomi",
     strip: {
@@ -957,251 +230,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/hw/mt6895/android.hardware.camera.provider@2.6-impl-mediatek.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.camera.provider_2.6",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.camera.provider@2.6.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.cas.native_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.cas.native@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.cas_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.cas@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.cas_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.cas@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.cas_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.cas@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.drm_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.drm@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.drm@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.drm_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.drm@1.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.drm@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.drm_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.drm@1.2.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.drm@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.drm_1.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.drm@1.3.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.drm@1.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.drm_1.4",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.drm@1.4.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.drm@1.4.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.dumpstate_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.dumpstate@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.dumpstate_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.dumpstate@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.gatekeeper_1.0-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.gatekeeper_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.gatekeeper@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.gatekeeper@1.0.so"],
         },
     },
     check_elf_files: false,
@@ -1225,102 +253,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.gnss.measurement_corrections_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.gnss.measurement_corrections_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.gnss.visibility_control_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.gnss.visibility_control@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.gnss_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.gnss@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.gnss_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.gnss@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.gnss_2.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.gnss@2.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.gnss_2.1-impl-mediatek",
     owner: "xiaomi",
     strip: {
@@ -1330,22 +262,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.gnss_2.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.gnss@2.1.so"],
         },
     },
     check_elf_files: false,
@@ -1372,86 +288,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.composer_2.1-resources",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.graphics.composer@2.1-resources.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.composer_2.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.graphics.composer@2.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.composer_2.2-resources",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.graphics.composer@2.2-resources.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.composer_2.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.graphics.composer@2.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.composer_2.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.graphics.composer@2.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.graphics.mapper_4.0-impl-mediatek",
     owner: "xiaomi",
     strip: {
@@ -1464,25 +300,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/hw/mt6895/android.hardware.graphics.mapper@4.0-impl-mediatek.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.health_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.health@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.health@1.0.so"],
         },
     },
     check_elf_files: false,
@@ -1509,244 +326,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.health_2.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.health@2.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.health@2.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.health_2.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.health@2.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.health@2.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.ir_1.0-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/android.hardware.ir@1.0-impl.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/android.hardware.ir@1.0-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.ir_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.ir@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.ir@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.keymaster_3.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.keymaster@3.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.keymaster_4.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.keymaster@4.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.light_2.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.light@2.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.media.c2_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.media.c2@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.media.c2@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.media.c2_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.media.c2@1.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.media.c2@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.media.c2_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.media.c2@1.2.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.media.c2@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.nfc_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.nfc@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.nfc@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.nfc_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.nfc@1.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.nfc@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.nfc_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.nfc@1.2.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.nfc@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.power-service-mediatek",
     owner: "xiaomi",
     strip: {
@@ -1763,388 +342,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.power_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.power@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.power_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.power@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.power_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.power@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.config_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio.config@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.config_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio.config@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.config_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio.config@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio.config_1.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio.config@1.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.radio@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio@1.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.radio@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio_1.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio@1.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio_1.4",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio@1.4.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio_1.5",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio@1.5.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.radio_1.6",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.radio@1.6.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.renderscript_1.0-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.secure_element_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.secure_element@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.secure_element@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.secure_element_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.secure_element@1.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.secure_element@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.secure_element_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.secure_element@1.2.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.secure_element@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.sensors_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.sensors@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.sensors@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.sensors_2.0-ScopedWakelock",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.sensors_2.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.sensors@2.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.sensors@2.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.sensors_2.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.sensors@2.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.sensors@2.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.sensors_2.X-subhal-mediatek",
     owner: "xiaomi",
     strip: {
@@ -2154,168 +351,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.soundtrigger_2.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.soundtrigger@2.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.soundtrigger@2.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.soundtrigger_2.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.soundtrigger@2.2.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.soundtrigger@2.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.soundtrigger_2.3-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.soundtrigger_2.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.soundtrigger@2.3.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.soundtrigger@2.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.tetheroffload.config_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.tetheroffload.config@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.tetheroffload.control_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.tetheroffload.control@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.tetheroffload.control_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.tetheroffload.control@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.thermal_1.0-impl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.thermal_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.thermal@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.thermal@1.0.so"],
         },
     },
     check_elf_files: false,
@@ -2342,121 +377,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.thermal_2.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.thermal@2.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hardware.thermal@2.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.usb.gadget_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.usb.gadget@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.usb.gadget_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.usb.gadget@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.usb_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.usb@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.usb_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.usb@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.usb_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.usb@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.usb_1.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.usb@1.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.vibrator-V1-ndk_platform",
     owner: "xiaomi",
     strip: {
@@ -2466,303 +386,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/android.hardware.vibrator-V1-ndk_platform.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.hostapd_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.hostapd_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.hostapd_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.hostapd_1.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.supplicant_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.supplicant_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.supplicant_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.supplicant_1.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi.supplicant_1.4",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.4.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi_1.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi@1.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi_1.4",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi@1.4.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.wifi_1.5",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hardware.wifi@1.5.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hidl.allocator_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hidl.allocator@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hidl.allocator@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hidl.memory.block_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.hidl.memory.block@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.hidl.memory.block@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.system.wifi.keystore_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/android.system.wifi.keystore@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/android.system.wifi.keystore@1.0.so"],
         },
     },
     check_elf_files: false,
@@ -2934,25 +557,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio.bluetooth.default",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/audio.bluetooth.default.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/audio.bluetooth.default.so"],
         },
     },
     check_elf_files: false,
@@ -4486,25 +2090,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libOpenCL",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libOpenCL.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libOpenCL.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libSMBlemishAnalysis_new",
     owner: "xiaomi",
     strip: {
@@ -4603,22 +2188,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/libVkLayer_mtk_rt_sdk.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "lib_android_keymaster_keymint_utils",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so"],
         },
     },
     check_elf_files: false,
@@ -5517,25 +3086,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libalsautils",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libalsautils.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libalsautils.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libanc_calibration_parser",
     owner: "xiaomi",
     strip: {
@@ -5906,25 +3456,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libarmnn",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libarmnn.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libarmnn.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libarmnn_ndk.mtk.vndk",
     owner: "xiaomi",
     strip: {
@@ -6013,25 +3544,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libaudio_param_parser-vnd.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libaudioclient_aidl_conversion",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libaudioclient_aidl_conversion.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libaudioclient_aidl_conversion.so"],
         },
     },
     check_elf_files: false,
@@ -6172,25 +3684,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaudiofoundation",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libaudiofoundation.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libaudiofoundation.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libaudioloudc",
     owner: "xiaomi",
     strip: {
@@ -6203,25 +3696,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libaudioloudc.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libaudiopreprocessing",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/soundfx/libaudiopreprocessing.so"],
         },
     },
     check_elf_files: false,
@@ -6324,25 +3798,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libavservices_minijail",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libavservices_minijail.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libavservices_minijail.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libawinicsmartpaparse",
     owner: "xiaomi",
     strip: {
@@ -6390,22 +3845,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libbessound_hd_mtk_vendor.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libbinderdebug",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libbinderdebug.so"],
         },
     },
     check_elf_files: false,
@@ -6539,25 +3978,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libbluetoothem_mtk.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libbundlewrapper",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/soundfx/libbundlewrapper.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/soundfx/libbundlewrapper.so"],
         },
     },
     check_elf_files: false,
@@ -8513,41 +5933,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libchrome",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libchrome.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libclearkeycasplugin",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/mediacas/libclearkeycasplugin.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libclient2slpi.notifier",
     owner: "xiaomi",
     strip: {
@@ -8598,82 +5983,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libcmdl_ndk.mtk.vndk.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_hidl_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libcodec2_hidl@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libcodec2_hidl@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_hidl_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libcodec2_hidl@1.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libcodec2_hidl@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_hidl_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libcodec2_hidl@1.2.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libcodec2_hidl@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_hidl_plugin",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libcodec2_hidl_plugin.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libcodec2_hidl_plugin.so"],
         },
     },
     check_elf_files: false,
@@ -8747,25 +6056,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/libcodec2_soft_ac4dec_3_8_5.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_soft_common",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libcodec2_soft_common.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libcodec2_soft_common.so"],
         },
     },
     check_elf_files: false,
@@ -8893,25 +6183,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/libcodec2_store_dolby_3_8_5.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_vndk",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libcodec2_vndk.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libcodec2_vndk.so"],
         },
     },
     check_elf_files: false,
@@ -9231,38 +6502,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcppbor_external",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libcppbor_external.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcppcose_rkp",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libcppcose_rkp.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libcustom_nvram",
     owner: "xiaomi",
     strip: {
@@ -9571,25 +6810,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libdownmix",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/soundfx/libdownmix.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/soundfx/libdownmix.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libdpframework",
     owner: "xiaomi",
     strip: {
@@ -9628,44 +6848,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libdrm",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libdrm.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libdrm.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libdrmclearkeyplugin",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libdynamiclog",
     owner: "xiaomi",
     strip: {
@@ -9685,25 +6867,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libdynproc",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/soundfx/libdynproc.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/soundfx/libdynproc.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libeffecthal.base",
     owner: "xiaomi",
     strip: {
@@ -9713,63 +6876,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/libeffecthal.base.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libeffectproxy",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/soundfx/libeffectproxy.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/soundfx/libeffectproxy.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libeffects",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libeffects.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libeffects.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libeffectsconfig",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libeffectsconfig.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libeffectsconfig.so"],
         },
     },
     check_elf_files: false,
@@ -10115,25 +7221,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/libflash_compare.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libflatbuffers-cpp",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libflatbuffers-cpp.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libflatbuffers-cpp.so"],
         },
     },
     check_elf_files: false,
@@ -10535,25 +7622,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libhapticgenerator",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/soundfx/libhapticgenerator.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/soundfx/libhapticgenerator.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libhdrmode",
     owner: "xiaomi",
     strip: {
@@ -10664,25 +7732,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libhidltransport",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libhidltransport.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libhidltransport.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libhis_face_tracking",
     owner: "xiaomi",
     strip: {
@@ -10724,25 +7773,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/libhmp_custom.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libhwbinder",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libhwbinder.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libhwbinder.so"],
         },
     },
     check_elf_files: false,
@@ -11303,89 +8333,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymaster_messages",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libkeymaster_messages.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymaster_portable",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libkeymaster_portable.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymint",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libkeymint.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeystore-engine-wifi-hidl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeystore-wifi-hidl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libkeystore-wifi-hidl.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libkeystore-wifi-hidl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libkmsetkey",
     owner: "xiaomi",
     strip: {
@@ -11437,25 +8384,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libldnhncr",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/soundfx/libldnhncr.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/soundfx/libldnhncr.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "liblogwrap_vendor",
     owner: "xiaomi",
     strip: {
@@ -11500,44 +8428,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/libmdla_ut.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmediautils_vendor",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libmediautils_vendor.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libmediautils_vendor.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmemunreachable",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libmemunreachable.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libmemunreachable.so"],
         },
     },
     check_elf_files: false,
@@ -12352,25 +9242,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/libmnl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmockdrmcryptoplugin",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so"],
         },
     },
     check_elf_files: false,
@@ -14898,25 +11769,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libnbaio_mono",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libnbaio_mono.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libnbaio_mono.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libneuralnetworks_sl_driver_mtk_prebuilt",
     owner: "xiaomi",
     strip: {
@@ -15098,22 +11950,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libnl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vndk/libnl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libnpagent",
     owner: "xiaomi",
     strip: {
@@ -15279,38 +12115,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libomp",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libomp.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libopus",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libopus.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libpaperMode",
     owner: "xiaomi",
     strip: {
@@ -15323,25 +12127,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libpaperMode.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libpcap",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libpcap.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libpcap.so"],
         },
     },
     check_elf_files: false,
@@ -15590,22 +12375,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libpuresoftkeymasterdevice",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libpuresoftkeymasterdevice.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libratconfig",
     owner: "xiaomi",
     strip: {
@@ -15702,25 +12471,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libreverbwrapper",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/soundfx/libreverbwrapper.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/soundfx/libreverbwrapper.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "librfs_warp",
     owner: "xiaomi",
     strip: {
@@ -15810,25 +12560,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libruy",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libruy.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libruy.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libscltm",
     owner: "xiaomi",
     strip: {
@@ -15879,82 +12610,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libsensor_cal.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsensorndkbridge",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libsensorndkbridge.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libsensorndkbridge.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsfplugin_ccodec_utils",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libsfplugin_ccodec_utils.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libsfplugin_ccodec_utils.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libshmemcompat",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libshmemcompat.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libshmemcompat.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libshmemutil",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libshmemutil.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libshmemutil.so"],
         },
     },
     check_elf_files: false,
@@ -16044,22 +12699,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libsn100u_fw.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsoft_attestation_cert",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libsoft_attestation_cert.so"],
         },
     },
     check_elf_files: false,
@@ -16209,73 +12848,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libssccalapi.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libstagefright_amrnb_common",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libstagefright_amrnb_common.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libstagefright_bufferpool_2.0.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libstagefright_bufferpool@2.0.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libstagefright_enc_common",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libstagefright_enc_common.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libstagefright_flacdec",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libstagefright_flacdec.so"],
         },
     },
     check_elf_files: false,
@@ -16619,38 +13191,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libstagefright_softomx",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libstagefright_softomx.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libstagefright_softomx_plugin",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libstagefright_softomx_plugin.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libstereoinfoaccessor_vsdof",
     owner: "xiaomi",
     strip: {
@@ -16819,25 +13359,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libtextclassifier_hash",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libtextclassifier_hash.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libtextclassifier_hash.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libtflite_mtk",
     owner: "xiaomi",
     strip: {
@@ -16869,25 +13390,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libthha.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libtinycompress",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libtinycompress.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libtinycompress.so"],
         },
     },
     check_elf_files: false,
@@ -17223,25 +13725,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libvibrator",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libvibrator.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libvibrator.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libvideoBokeh",
     owner: "xiaomi",
     strip: {
@@ -17309,25 +13792,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libvisualizer",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/soundfx/libvisualizer.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/soundfx/libvisualizer.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libvoiprec",
     owner: "xiaomi",
     strip: {
@@ -17340,22 +13804,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libvoiprec.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvorbisidec",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libvorbisidec.so"],
         },
     },
     check_elf_files: false,
@@ -17557,22 +14005,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libvpx",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
-    multilib: {
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libvpx.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libvt_avsync",
     owner: "xiaomi",
     strip: {
@@ -17640,7 +14072,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libwifi-hal",
+    name: "libwifi-hal-mtk",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17648,7 +14080,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     multilib: {
         lib64: {
-            srcs: ["proprietary/vendor/lib64/libwifi-hal.so"],
+            srcs: ["proprietary/vendor/lib64/libwifi-hal-mtk.so"],
         },
     },
     check_elf_files: false,
@@ -17665,25 +14097,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/libwifitest.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libwpa_client",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libwpa_client.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libwpa_client.so"],
         },
     },
     check_elf_files: false,
@@ -17795,22 +14208,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libxlog.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libz_stable",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libz_stable.so"],
         },
     },
     check_elf_files: false,
@@ -19071,44 +15468,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.mtkpower_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.mtkpower_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mtkpower_1.2-impl",
     owner: "xiaomi",
     strip: {
@@ -19121,25 +15480,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.mtkpower_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so"],
         },
     },
     check_elf_files: false,
@@ -19934,25 +16274,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.displayfeature_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.dtool_1.0",
     owner: "xiaomi",
     strip: {
@@ -19962,60 +16283,6 @@ cc_prebuilt_library_shared {
     multilib: {
         lib64: {
             srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.dtool@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.fingerprintextension_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.fx.tunnel_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.mfidoca_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so"],
         },
     },
     check_elf_files: false,
@@ -20285,44 +16552,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.mlipay_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.mlipay_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.mrm-V1-ndk_platform",
     owner: "xiaomi",
     strip: {
@@ -20338,73 +16567,6 @@ cc_prebuilt_library_shared {
         },
     },
     check_elf_files: false,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.mtdservice_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.mtdservice_1.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.mtdservice_1.2",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hardware.mtdservice_1.3",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -20515,25 +16677,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.xiaomi.hw.touchfeature_1.0",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/vendor.xiaomi.hw.touchfeature@1.0.so"],
         },
     },
     check_elf_files: false,
