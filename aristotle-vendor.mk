@@ -1282,7 +1282,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot_1.0-impl-1.2-mtkimpl \
     android.hardware.boot_1.1 \
     android.hardware.boot_1.2 \
-    android.hardware.boot_1.2-service \
     android.hardware.camera.common-V1-ndk_platform \
     android.hardware.camera.common_1.0 \
     android.hardware.camera.device-V1-ndk_platform \
@@ -1302,7 +1301,6 @@ PRODUCT_PACKAGES += \
     android.hardware.cas_1.0 \
     android.hardware.cas_1.1 \
     android.hardware.cas_1.2 \
-    android.hardware.cas_1.2-service-lazy \
     android.hardware.drm_1.0 \
     android.hardware.drm_1.1 \
     android.hardware.drm_1.2 \
@@ -1315,7 +1313,6 @@ PRODUCT_PACKAGES += \
     android.hardware.dumpstate_1.1-service.xiaomi \
     android.hardware.gatekeeper_1.0 \
     android.hardware.gatekeeper_1.0-impl \
-    android.hardware.gatekeeper_1.0-service \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss-service.mediatek \
     android.hardware.gnss.measurement_corrections_1.0 \
@@ -1331,20 +1328,16 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator_4.0-service-mediatek.mt6895_bin \
     android.hardware.graphics.composer_2.1 \
     android.hardware.graphics.composer_2.1-resources \
-    android.hardware.graphics.composer_2.1-service \
     android.hardware.graphics.composer_2.2 \
     android.hardware.graphics.composer_2.2-resources \
     android.hardware.graphics.composer_2.3 \
-    android.hardware.graphics.composer_2.3-service \
     android.hardware.graphics.mapper_4.0-impl-mediatek \
     android.hardware.health_1.0 \
     android.hardware.health_2.0 \
     android.hardware.health_2.0-impl-2.1 \
     android.hardware.health_2.1 \
-    android.hardware.health_2.1-service \
     android.hardware.ir_1.0 \
     android.hardware.ir_1.0-impl \
-    android.hardware.ir_1.0-service \
     android.hardware.keymaster_3.0 \
     android.hardware.keymaster_4.0 \
     android.hardware.light_2.0 \
@@ -1354,7 +1347,6 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2_1.2 \
     android.hardware.media.c2_1.2-mediatek \
     android.hardware.media.c2_1.2-mediatek-64b \
-    android.hardware.media.omx_1.0-service \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.nfc_1.0 \
     android.hardware.nfc_1.1 \
@@ -1426,7 +1418,6 @@ PRODUCT_PACKAGES += \
     android.hidl.memory.block_1.0 \
     android.system.wifi.keystore_1.0 \
     androidx.camera.extensions.impl \
-    applypatch \
     aristotleimx596_mipi_raw_IdxMgr \
     aristotleimx596_mipi_raw_tuning \
     aristotleimx707_mipi_raw_IdxMgr \
@@ -1446,7 +1437,6 @@ PRODUCT_PACKAGES += \
     audioclient-types-aidl-cpp \
     audiocmdservice_atci \
     autobt \
-    awk \
     batterysecret \
     bip_ap \
     boringssl_self_test32 \
@@ -1486,14 +1476,12 @@ PRODUCT_PACKAGES += \
     dexecutor \
     displayfeature \
     displayfeature.default \
-    dmabuf_dump \
     dmc_core \
     doeapp-memtester \
     doeapp-sat \
     dtc_vendor \
     dumpfaultd.mt6895 \
     dumpfaultd.mt6895_bin \
-    dumpsys \
     eara_io_service \
     em_hidl \
     factory \
@@ -1507,14 +1495,10 @@ PRODUCT_PACKAGES += \
     gatekeeper.default \
     gatekeeper.mitee \
     gbe \
-    getevent \
     getgameserver \
-    getprop \
     gps.default \
     gralloc.common \
     gsm0710muxd \
-    hostapd \
-    hostapd_cli \
     hwcomposer.mtk_common \
     ioprofiler \
     iperf \
@@ -2353,7 +2337,6 @@ PRODUCT_PACKAGES += \
     libxlog \
     libz_stable \
     loghidlvendorservice \
-    logwrapper \
     ls_nq_client-v1 \
     mcfota_service \
     md_monitor \
@@ -2369,7 +2352,6 @@ PRODUCT_PACKAGES += \
     miteelog \
     mlipayd_mitee_1.1 \
     mnld \
-    modprobe \
     mrdump_tool \
     mrmd_mitee \
     mt6660_calibration \
@@ -2401,8 +2383,6 @@ PRODUCT_PACKAGES += \
     sensors.mediatek.V2.0 \
     sensors.mt6895 \
     sensors.touch.detect \
-    setprop \
-    sh \
     shared-file-region-aidl-cpp \
     show_reserved_mem \
     slad \
@@ -2410,8 +2390,6 @@ PRODUCT_PACKAGES += \
     smartpa_nvtest \
     soterd \
     sound_trigger.primary.default \
-    start \
-    stop \
     stp_dump3 \
     tcpdump-vendor \
     tee-supplicant \
@@ -2420,7 +2398,6 @@ PRODUCT_PACKAGES += \
     thermal_core \
     thermal_hal \
     thermal_intf \
-    toolbox \
     toucheventcheck \
     vendor.dolby_3_8_5.hardware.dms_2.0 \
     vendor.dolby_3_8_5.hardware.dms_2.0-impl \
@@ -2995,8 +2972,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_mt6895_mtk000_mipi_raw_IdxMgr.so \
     vendor_lib_mt6895_mtk000_mipi_raw_tuning.so \
     vib_cal \
-    vndservice \
-    vndservicemanager \
     volte_clientapi_ua \
     volte_rcs_ua \
     vpud \
@@ -3007,6 +2982,4 @@ PRODUCT_PACKAGES += \
     wlan_assistant \
     wmt_launcher \
     wmt_loader \
-    wpa_cli \
-    wpa_supplicant \
     xiaomi_ir_test \

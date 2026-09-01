@@ -20804,18 +20804,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "applypatch",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/applypatch"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "atci_service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/atci_service"],
@@ -20855,18 +20843,6 @@ cc_prebuilt_binary {
     name: "autobt",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/autobt"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "awk",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/awk"],
     check_elf_files: false,
     strip: {
         none: true,
@@ -21056,18 +21032,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "dmabuf_dump",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/dmabuf_dump"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "dmc_core",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/dmc_core"],
@@ -21119,18 +21083,6 @@ cc_prebuilt_binary {
     name: "dumpfaultd.mt6895",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/dumpfaultd.mt6895"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "dumpsys",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/dumpsys"],
     check_elf_files: false,
     strip: {
         none: true,
@@ -21248,33 +21200,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "getevent",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/getevent"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "getgameserver",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/getgameserver"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "getprop",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/getprop"],
     check_elf_files: false,
     strip: {
         none: true,
@@ -21296,18 +21224,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "hostapd_cli",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hostapd_cli"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.bluetooth_1.1-service-mediatek",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek"],
@@ -21316,30 +21232,6 @@ cc_prebuilt_binary {
         none: true,
     },
     compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.boot_1.2-service",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/android.hardware.boot@1.2-service"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.cas_1.2-service-lazy",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
     soc_specific: true,
 }
 
@@ -21380,18 +21272,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.gatekeeper_1.0-service",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.gnss-service.mediatek",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek"],
@@ -21407,54 +21287,6 @@ cc_prebuilt_binary {
     name: "android.hardware.graphics.allocator_4.0-service-mediatek.mt6895",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.graphics.composer_2.1-service",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.graphics.composer_2.3-service",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.3-service"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.health_2.1-service",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/android.hardware.health@2.1-service"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.ir_1.0-service",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/android.hardware.ir@1.0-service"],
     check_elf_files: false,
     strip: {
         none: true,
@@ -21496,18 +21328,6 @@ cc_prebuilt_binary {
         none: true,
     },
     compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.media.omx_1.0-service",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "32",
     soc_specific: true,
 }
 
@@ -21599,18 +21419,6 @@ cc_prebuilt_binary {
     name: "camerahalserver",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/camerahalserver"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "hostapd",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/hostapd"],
     check_elf_files: false,
     strip: {
         none: true,
@@ -22052,18 +21860,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "wpa_supplicant",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/wpa_supplicant"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "ioprofiler",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/ioprofiler"],
@@ -22175,18 +21971,6 @@ cc_prebuilt_binary {
     name: "loghidlvendorservice",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/loghidlvendorservice"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "logwrapper",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/logwrapper"],
     check_elf_files: false,
     strip: {
         none: true,
@@ -22331,18 +22115,6 @@ cc_prebuilt_binary {
     name: "mnld",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/mnld"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "modprobe",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/modprobe"],
     check_elf_files: false,
     strip: {
         none: true,
@@ -22628,30 +22400,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "setprop",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/setprop"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "sh",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/sh"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "show_reserved_mem",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/show_reserved_mem"],
@@ -22703,30 +22451,6 @@ cc_prebuilt_binary {
     name: "soterd",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/soterd"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "start",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/start"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "stop",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/stop"],
     check_elf_files: false,
     strip: {
         none: true,
@@ -22808,45 +22532,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "toolbox",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/toolbox"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "toucheventcheck",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/toucheventcheck"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vndservice",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/vndservice"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vndservicemanager",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/vndservicemanager"],
     check_elf_files: false,
     strip: {
         none: true,
@@ -22931,18 +22619,6 @@ cc_prebuilt_binary {
     name: "wmt_loader",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/wmt_loader"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "wpa_cli",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/wpa_cli"],
     check_elf_files: false,
     strip: {
         none: true,
