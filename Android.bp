@@ -12668,25 +12668,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libspatializer",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/soundfx/libspatializer.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/soundfx/libspatializer.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libspatializerparamstorage_3_8_5",
     owner: "xiaomi",
     strip: {

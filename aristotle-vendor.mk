@@ -658,7 +658,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/selinux/selinux_denial_metadata:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/selinux_denial_metadata \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/sensor_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_diag.cfg \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/sensors/lightSensorCali.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/lightSensorCali.json \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/sensors/lightSensorConfig.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/lightSensorConfig.json \
@@ -1807,7 +1806,6 @@ PRODUCT_PACKAGES += \
     libsn100u_fw \
     libsoter \
     libsource \
-    libspatializer \
     libspatializerparamstorage_3_8_5 \
     libspeech_enh_lib \
     libspeechparser_vendor \
