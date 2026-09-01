@@ -419,9 +419,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/ddr_training.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ddr_training.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/display.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/display.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/ffu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ffu.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpsgo.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
@@ -450,9 +448,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/mcfota_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mcfota_service.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/mi_ic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ic.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/mi_ric.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ric.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/minetd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/minetd.rc \
@@ -471,10 +467,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.dolby_3_8_5.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby_3_8_5.hardware.dms@2.0-service.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.dolby_3_8_5.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby_3_8_5.media.c2@1.0-service.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
@@ -992,7 +984,15 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     atcid.rc \
+    dmc_core.rc \
+    em_hidl_user.rc \
     gma_custom.xml \
+    loghidlvendorservice.rc \
+    md_monitor.rc \
+    vendor.mediatek.hardware.aee@1.1-service.rc \
+    vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
+    vendor.mediatek.hardware.mmagent@1.1-service.rc \
+    vendor.mediatek.hardware.mms@1.6-service.rc \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \

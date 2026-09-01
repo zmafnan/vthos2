@@ -26,6 +26,78 @@ prebuilt_etc {
     soc_specific: true,
 }
 
+prebuilt_etc {
+    name: "dmc_core.rc",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/init/dmc_core.rc",
+    filename: "dmc_core.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "em_hidl_user.rc",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/init/em_hidl_user.rc",
+    filename: "em_hidl_user.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "loghidlvendorservice.rc",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/init/loghidlvendorservice.rc",
+    filename: "loghidlvendorservice.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "md_monitor.rc",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/init/md_monitor.rc",
+    filename: "md_monitor.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.aee@1.1-service.rc",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc",
+    filename: "vendor.mediatek.hardware.aee@1.1-service.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc",
+    filename: "vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.mmagent@1.1-service.rc",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc",
+    filename: "vendor.mediatek.hardware.mmagent@1.1-service.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "vendor.mediatek.hardware.mms@1.6-service.rc",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc",
+    filename: "vendor.mediatek.hardware.mms@1.6-service.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
+
 java_import {
     name: "androidx.camera.extensions.impl",
     owner: "xiaomi",
