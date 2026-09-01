@@ -1236,11 +1236,8 @@ PRODUCT_PACKAGES += \
     DFtool \
     FlashCompareAPI \
     HallGyroTest \
-    ImsService \
     MI_IC \
     MI_RIC \
-    MtkGbaService \
-    MtkTelephonyAssist \
     Ois_Tset_Factory_White \
     SMBlemishAnalyzer_new \
     SoterProvisioningTool_mitee \
