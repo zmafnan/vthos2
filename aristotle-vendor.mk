@@ -1251,7 +1251,6 @@ PRODUCT_PACKAGES += \
     aeev_v2 \
     android.frameworks.displayservice_1.0 \
     android.frameworks.sensorservice_1.0 \
-    android.hardware.audio.common-util \
     android.hardware.audio.common_5.0 \
     android.hardware.audio.common_6.0 \
     android.hardware.audio.common_6.0-util \
@@ -1267,7 +1266,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect_7.0-impl \
     android.hardware.audio.effect_7.0-util \
     android.hardware.audio.parameter_parser.service \
-    android.hardware.audio.service.mediatek \
     android.hardware.audio_6.0 \
     android.hardware.audio_6.0-impl-mediatek \
     android.hardware.audio_7.0 \
@@ -1362,7 +1360,6 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2_1.2-mediatek \
     android.hardware.media.c2_1.2-mediatek-64b \
     android.hardware.media.omx_1.0-service \
-    android.hardware.memtrack-service.mediatek \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.nfc_1.0 \
     android.hardware.nfc_1.1 \
@@ -1414,7 +1411,6 @@ PRODUCT_PACKAGES += \
     android.hardware.usb_1.2-service-mediatekv2 \
     android.hardware.usb_1.3 \
     android.hardware.vibrator-V1-ndk_platform \
-    android.hardware.vibrator-service.mediatek \
     android.hardware.wifi.hostapd_1.0 \
     android.hardware.wifi.hostapd_1.1 \
     android.hardware.wifi.hostapd_1.2 \
@@ -1448,14 +1444,10 @@ PRODUCT_PACKAGES += \
     atci_service \
     atcid \
     audio.bluetooth.default \
-    audio.primary.default \
     audio.primary.mediatek \
-    audio.r_submix.default \
     audio.r_submix.mediatek \
     audio.r_submix.mt6895 \
-    audio.usb.default \
     audio_common-aidl-cpp \
-    audio_policy.stub \
     audioclient-types-aidl-cpp \
     audiocmdservice_atci \
     autobt \
@@ -1569,7 +1561,6 @@ PRODUCT_PACKAGES += \
     getprop \
     gps.default \
     gralloc.common \
-    gralloc.default \
     grep \
     groups \
     gsm0710muxd \
@@ -1766,20 +1757,17 @@ PRODUCT_PACKAGES += \
     libaudiotoolkit_vendor \
     libaurisysdemo \
     libavservices_minijail \
-    libavservices_minijail_vendor \
     libawinicsmartpaparse \
     libbeauty_face_interface \
     libbessound_hd_mtk_vendor \
     libbinderdebug \
     libblisrc32_vendor \
-    libbluetooth_audio_session \
     libbluetooth_audio_session_mediatek \
     libbluetooth_hw_test \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
     libbluetooth_relayer \
     libbluetoothem_mtk \
-    libbt-vendor \
     libbundlewrapper \
     libbwc \
     libc___shared \
@@ -2021,13 +2009,10 @@ PRODUCT_PACKAGES += \
     libhfmanager \
     libhfmanagerwrapper \
     libhidltransport \
-    libhidparser \
     libhis_face_tracking \
     libhis_motion_tracker \
     libhmp_custom \
     libhwbinder \
-    libhwc2on1adapter \
-    libhwc2onfbadapter \
     libhwm \
     libicd_decoder \
     libifcutils_mtk \
@@ -2059,11 +2044,9 @@ PRODUCT_PACKAGES += \
     libispfeature_mtkcam.v4l2 \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libkeymaster4support \
     libkeymaster_messages \
     libkeymaster_portable \
     libkeymint \
-    libkeymint_support \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
     libkmsetkey \
@@ -2249,7 +2232,6 @@ PRODUCT_PACKAGES += \
     libmtkmipc-ril \
     libmtknetcap \
     libmtknetutils \
-    libmtkperf_client_vendor \
     libmtkproperty \
     libmtkrillog \
     libmtkrilutils \
@@ -2300,13 +2282,11 @@ PRODUCT_PACKAGES += \
     libpaperMode \
     libpcap \
     libpda_usdriver \
-    libperfctl_vendor \
     libpixelflinger \
     libpkm \
     libportrait_repair_apu \
     libpower_timer \
     libpowerhal \
-    libpowerhalwrap_vendor \
     libpq_cust_base \
     libpq_prot \
     libpqframework \
@@ -2318,16 +2298,13 @@ PRODUCT_PACKAGES += \
     libratconfig \
     librcs_interface \
     librcs_volte_core \
-    libreference-ril \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
     libreverbwrapper \
     librfs_warp \
     librgbwlightsensor \
-    libril \
     librilfusion \
-    librilutils \
     librpc \
     librt_extamp_intf \
     libruy \
@@ -2379,7 +2356,6 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vpxenc \
     libstagefright_softomx \
     libstagefright_softomx_plugin \
-    libstagefrighthw \
     libstereoinfoaccessor_vsdof \
     libstorage_otp \
     libswdap_3_8_5 \
@@ -2448,7 +2424,6 @@ PRODUCT_PACKAGES += \
     libz_stable \
     ln \
     load_policy \
-    local_time.default \
     log \
     loghidlvendorservice \
     logname \
@@ -2525,7 +2500,6 @@ PRODUCT_PACKAGES += \
     pnscr \
     pnscr-mi \
     pnscr-rf \
-    power.default \
     printenv \
     printf \
     ps \
@@ -2548,7 +2522,6 @@ PRODUCT_PACKAGES += \
     se_nq_extn_client-v1 \
     sed \
     sendevent \
-    sensors.dynamic_sensor_hal \
     sensors.mediatek.V2.0 \
     sensors.mt6895 \
     sensors.touch.detect \
@@ -2590,7 +2563,6 @@ PRODUCT_PACKAGES += \
     tee \
     tee-supplicant \
     test \
-    test-nusensors \
     testgameserver \
     tetheroffloadservice \
     thermal_core \
@@ -3192,7 +3164,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_mt6895_mtk000_mipi_raw_IdxMgr.so \
     vendor_lib_mt6895_mtk000_mipi_raw_tuning.so \
     vib_cal \
-    vibrator.default \
     vmstat \
     vndservice \
     vndservicemanager \
