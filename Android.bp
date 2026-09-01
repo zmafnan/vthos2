@@ -16,6 +16,16 @@ prebuilt_etc {
     soc_specific: true,
 }
 
+// The stock-only ATCI HIDL ABI has no hidl_interface source metadata available.
+prebuilt_etc {
+    name: "atcid.rc",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/init/atcid.rc",
+    filename: "atcid.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}
+
 java_import {
     name: "androidx.camera.extensions.impl",
     owner: "xiaomi",
