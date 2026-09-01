@@ -1232,7 +1232,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator_4.0-service-mediatek.mt6895 \
     android.hardware.graphics.allocator_4.0-service-mediatek.mt6895_bin \
     android.hardware.graphics.mapper_4.0-impl-mediatek \
-    android.hardware.health_2.0-impl-2.1 \
     android.hardware.lights-service.mediatek \
     android.hardware.media.c2_1.2-mediatek \
     android.hardware.media.c2_1.2-mediatek-64b \
@@ -1500,7 +1499,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_relayer \
     libbluetoothem_mtk \
     libbwc \
-    libc___shared \
     libcam.3a_isp.utils \
     libcam.afmgr \
     libcam.chdr \
@@ -1987,8 +1985,6 @@ PRODUCT_PACKAGES += \
     libpqframework \
     libpqparamparser \
     libpqpconfig \
-    libprotobuf-cpp-full-3.9.1 \
-    libprotobuf-cpp-lite-3.9.1 \
     libratconfig \
     librcs_interface \
     librcs_volte_core \

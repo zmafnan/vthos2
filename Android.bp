@@ -307,25 +307,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.health_2.0-impl-2.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.power-service-mediatek",
     owner: "xiaomi",
     strip: {
@@ -3997,22 +3978,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libbwc.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libc___shared",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libc++_shared.so"],
         },
     },
     check_elf_files: false,
@@ -12330,44 +12295,6 @@ cc_prebuilt_library_shared {
         },
         lib32: {
             srcs: ["proprietary/vendor/lib/libpqpconfig.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libprotobuf-cpp-full-3.9.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so"],
-        },
-    },
-    check_elf_files: false,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libprotobuf-cpp-lite-3.9.1",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    compile_multilib: "both",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so"],
         },
     },
     check_elf_files: false,
