@@ -1244,8 +1244,6 @@ PRODUCT_PACKAGES += \
     Ois_Tset_Factory_White \
     SMBlemishAnalyzer_new \
     SoterProvisioningTool_mitee \
-    _ \
-    acpi \
     aee_aedv64_v2 \
     aee_dumpstatev_v2 \
     aeev_v2 \
@@ -1452,32 +1450,17 @@ PRODUCT_PACKAGES += \
     audiocmdservice_atci \
     autobt \
     awk \
-    base64 \
-    basename \
     batterysecret \
     bip_ap \
-    blockdev \
     boringssl_self_test32 \
     boringssl_self_test64 \
     bt_dump \
-    cal \
     camerahalserver \
     camerahalserver_bin \
-    cat \
     ccci_fsd \
     ccci_mdinit \
     ccci_rpcd \
     charge_logger \
-    chattr \
-    chcon \
-    chgrp \
-    chmod \
-    chown \
-    chroot \
-    chrt \
-    cksum \
-    clear \
-    cmp \
     com.fingerprints.extension_3.0 \
     com.xiaomi.plugin.arcsoftsr \
     com.xiaomi.plugin.capbokeh \
@@ -1498,93 +1481,45 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.skinbeautifier \
     com.xiaomi.plugin.supernight \
     com.xiaomi.plugin.swflip \
-    comm \
     conninfra_loader \
     consumerir.common \
-    cp \
-    cpio \
-    cut \
-    date \
     dc_cal \
     dconfig \
-    dd \
     ddr_eye \
-    devmem \
     dexecutor \
-    df \
-    diff \
-    dirname \
     displayfeature \
     displayfeature.default \
     dmabuf_dump \
     dmc_core \
-    dmesg \
     doeapp-memtester \
     doeapp-sat \
-    dos2unix \
     dtc_vendor \
-    du \
     dumpfaultd.mt6895 \
     dumpfaultd.mt6895_bin \
     dumpsys \
     eara_io_service \
-    echo \
-    egrep \
     em_hidl \
-    env \
-    expand \
-    expr \
     factory \
-    fallocate \
-    false \
     ffu \
-    fgrep \
     fidoca_mitee \
-    file \
-    find \
     fingerprint.goodix_fod \
-    flock \
-    fmt \
     fpsgo \
     framework-permission-aidl-cpp \
-    free \
-    fsync \
     fuelgauged \
     fuelgauged_nvram \
     gatekeeper.default \
     gatekeeper.mitee \
     gbe \
-    getconf \
-    getenforce \
     getevent \
     getgameserver \
     getprop \
     gps.default \
     gralloc.common \
-    grep \
-    groups \
     gsm0710muxd \
-    gunzip \
-    gzip \
-    head \
     hostapd \
     hostapd_cli \
-    hostname \
-    hwclock \
     hwcomposer.mtk_common \
-    i2cdetect \
-    i2cdump \
-    i2cget \
-    i2cset \
-    iconv \
-    id \
-    ifconfig \
-    inotifyd \
-    insmod \
-    install \
-    ionice \
     ioprofiler \
-    iorenice \
     iperf \
     ipsec_mon \
     iw-vendor \
@@ -1594,8 +1529,6 @@ PRODUCT_PACKAGES += \
     jcos_nq_client-v1 \
     jpegtool \
     jpegtool_bin \
-    kill \
-    killall \
     lbs_hidl_service \
     lbs_hidl_service-impl \
     lib3a.ae \
@@ -2422,22 +2355,10 @@ PRODUCT_PACKAGES += \
     libwvkeyboxext \
     libxlog \
     libz_stable \
-    ln \
-    load_policy \
-    log \
     loghidlvendorservice \
-    logname \
     logwrapper \
-    losetup \
-    ls \
     ls_nq_client-v1 \
-    lsattr \
-    lsmod \
-    lsof \
-    lspci \
-    lsusb \
     mcfota_service \
-    md5sum \
     md_monitor \
     md_monitor_ctrl \
     mec \
@@ -2445,23 +2366,13 @@ PRODUCT_PACKAGES += \
     meta_wifi_data \
     mfp-daemon \
     mi_thermald \
-    microcom \
     minetd \
     mitee_info \
     mitee_shell \
     miteelog \
-    mkdir \
-    mkfifo \
-    mknod \
-    mkswap \
-    mktemp \
     mlipayd_mitee_1.1 \
     mnld \
-    modinfo \
     modprobe \
-    more \
-    mount \
-    mountpoint \
     mrdump_tool \
     mrmd_mitee \
     mt6660_calibration \
@@ -2475,122 +2386,45 @@ PRODUCT_PACKAGES += \
     mtkmtb \
     mura_new \
     muxreport \
-    mv \
-    nc \
-    netcat \
     netdagent \
     netdc \
-    netstat \
     nfc_nci.nqx.default.hw.v1 \
-    nice \
-    nl \
-    nohup \
-    nproc \
-    nsenter \
     nvram_daemon \
     nwk_opt_imp \
-    od \
     ois_cal \
-    paste \
-    patch \
-    pgrep \
-    pidof \
-    pkill \
-    pmap \
     pnscr \
     pnscr-mi \
     pnscr-rf \
-    printenv \
-    printf \
-    ps \
-    pwd \
     rcs_volte_stack \
-    readelf \
-    readlink \
-    realpath \
-    renice \
-    restorecon \
-    rm \
-    rmdir \
-    rmmod \
     rt5512_calibration \
-    rtcwake \
     rttv_v2 \
     runDarkTestAPI \
     runDarkTestJpegAPI \
-    runcon \
     se_nq_extn_client-v1 \
-    sed \
-    sendevent \
     sensors.mediatek.V2.0 \
     sensors.mt6895 \
     sensors.touch.detect \
-    seq \
-    setenforce \
     setprop \
-    setsid \
     sh \
-    sha1sum \
-    sha224sum \
-    sha256sum \
-    sha384sum \
-    sha512sum \
     shared-file-region-aidl-cpp \
     show_reserved_mem \
     slad \
-    sleep \
     smartcharging \
     smartpa_nvtest \
-    sort \
     soterd \
     sound_trigger.primary.default \
-    split \
     start \
-    stat \
     stop \
     stp_dump3 \
-    strings \
-    stty \
-    swapoff \
-    swapon \
-    sync \
-    sysctl \
-    tac \
-    tail \
-    tar \
-    taskset \
     tcpdump-vendor \
-    tee \
     tee-supplicant \
-    test \
     testgameserver \
     tetheroffloadservice \
     thermal_core \
     thermal_hal \
     thermal_intf \
-    time \
-    timeout \
     toolbox \
-    top \
-    touch \
     toucheventcheck \
-    toybox_vendor \
-    tr \
-    true \
-    truncate \
-    tty \
-    ulimit \
-    umount \
-    uname \
-    uniq \
-    unix2dos \
-    unlink \
-    unshare \
-    uptime \
-    usleep \
-    uudecode \
-    uuencode \
-    uuidgen \
     vendor.dolby_3_8_5.hardware.dms_2.0 \
     vendor.dolby_3_8_5.hardware.dms_2.0-impl \
     vendor.dolby_3_8_5.hardware.dms_2.0-service \
@@ -3164,7 +2998,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_mt6895_mtk000_mipi_raw_IdxMgr.so \
     vendor_lib_mt6895_mtk000_mipi_raw_tuning.so \
     vib_cal \
-    vmstat \
     vndservice \
     vndservicemanager \
     volte_clientapi_ua \
@@ -3173,18 +3006,10 @@ PRODUCT_PACKAGES += \
     vtservice \
     vtservice_hidl \
     vulkan.mali \
-    watch \
-    wc \
-    which \
-    whoami \
     wifi_dump \
     wlan_assistant \
     wmt_launcher \
     wmt_loader \
     wpa_cli \
     wpa_supplicant \
-    xargs \
     xiaomi_ir_test \
-    xxd \
-    yes \
-    zcat \
