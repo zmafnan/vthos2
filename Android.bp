@@ -6,6 +6,16 @@
 soong_namespace {
 }
 
+// Stock MediaTek camera data uses a custom, non-XML grammar despite its suffix.
+prebuilt_etc {
+    name: "gma_custom.xml",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/camera/gma_custom.xml",
+    filename: "gma_custom.xml",
+    sub_dir: "camera",
+    soc_specific: true,
+}
+
 java_import {
     name: "androidx.camera.extensions.impl",
     owner: "xiaomi",
