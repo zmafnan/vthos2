@@ -2,4 +2,8 @@ service vendor.keymint-mitee /vendor/bin/hw/android.hardware.security.keymint@1.
 	class early_hal
 	user system
 	group system drmrpc
+	interface aidl android.hardware.security.keymint.IKeyMintDevice/default
+	interface aidl android.hardware.security.keymint.IRemotelyProvisionedComponent/default
+	interface aidl android.hardware.security.secureclock.ISecureClock/default
+	interface aidl android.hardware.security.sharedsecret.ISharedSecret/default
 	disabled
