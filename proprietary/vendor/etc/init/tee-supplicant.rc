@@ -29,4 +29,5 @@ on fs
     start tee-supplicant
     mkdir /mnt/vendor/persist/data 0755 system system
     setprop vendor.teefs_state ready
+    start vendor.keymint-mitee
     setprop ro.hardware.gatekeeper mitee
