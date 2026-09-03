@@ -1940,6 +1940,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/egl/mt6895/libGLES_mali.so"],
         },
     },
+    relative_install_path: "egl",
     check_elf_files: false,
     soc_specific: true,
 }
@@ -1959,6 +1960,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/egl/libGLES_meow.so"],
         },
     },
+    relative_install_path: "egl",
     check_elf_files: false,
     soc_specific: true,
 }
@@ -2029,6 +2031,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/egl/libMEOW_data.so"],
         },
     },
+    relative_install_path: "egl",
     check_elf_files: false,
     soc_specific: true,
 }
@@ -2048,6 +2051,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/egl/libMEOW_gift.so"],
         },
     },
+    relative_install_path: "egl",
     check_elf_files: false,
     soc_specific: true,
 }
@@ -2067,6 +2071,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/egl/libMEOW_qt.so"],
         },
     },
+    relative_install_path: "egl",
     check_elf_files: false,
     soc_specific: true,
 }
@@ -2086,6 +2091,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/egl/libMEOW_trace.so"],
         },
     },
+    relative_install_path: "egl",
     check_elf_files: false,
     soc_specific: true,
 }
