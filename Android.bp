@@ -1940,7 +1940,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/egl/mt6895/libGLES_mali.so"],
         },
     },
-    relative_install_path: "egl",
+    relative_install_path: "egl/mt6895",
     check_elf_files: false,
     soc_specific: true,
 }
