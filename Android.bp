@@ -1239,6 +1239,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/hw/fingerprint.goodix_fod.so"],
         },
     },
+    relative_install_path: "hw",
     check_elf_files: false,
     soc_specific: true,
 }
@@ -1940,6 +1941,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/egl/mt6895/libGLES_mali.so"],
         },
     },
+    shared_libs: ["libdmabufheap"],
     relative_install_path: "egl/mt6895",
     check_elf_files: false,
     soc_specific: true,
@@ -9595,6 +9597,7 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib64/libmtk-ril.so"],
         },
     },
+    shared_libs: ["vendor.mediatek.hardware.nvram_1.1"],
     check_elf_files: false,
     soc_specific: true,
 }
@@ -15756,6 +15759,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram_1.1-impl",
+    stem: "vendor.mediatek.hardware.nvram@1.1-impl",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15769,12 +15773,14 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so"],
         },
     },
+    relative_install_path: "hw",
     check_elf_files: false,
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nvram_1.1",
+    stem: "vendor.mediatek.hardware.nvram@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
