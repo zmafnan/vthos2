@@ -6,6 +6,141 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+    name: "android.hardware.security.keymint-V1-ndk_platform-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/android.hardware.security.keymint-V1-ndk_platform.so"],
+    stem: "android.hardware.security.keymint-V1-ndk_platform",
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.security.sharedsecret-V1-ndk_platform-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/android.hardware.security.sharedsecret-V1-ndk_platform.so"],
+    stem: "android.hardware.security.sharedsecret-V1-ndk_platform",
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.security.secureclock-V1-ndk_platform-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/android.hardware.security.secureclock-V1-ndk_platform.so"],
+    stem: "android.hardware.security.secureclock-V1-ndk_platform",
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.keymaster@3.0-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/android.hardware.keymaster@3.0-v31.so"],
+    stem: "android.hardware.keymaster@3.0-v31",
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.keymaster@4.0-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/android.hardware.keymaster@4.0-v31.so"],
+    stem: "android.hardware.keymaster@4.0-v31",
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "lib_android_keymaster_keymint_utils-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/lib_android_keymaster_keymint_utils-v31.so"],
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libkeymaster_messages-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/libkeymaster_messages-v31.so"],
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libkeymaster_portable-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/libkeymaster_portable-v31.so"],
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libkeymint-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/libkeymint-v31.so"],
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libpuresoftkeymasterdevice-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/libpuresoftkeymasterdevice-v31.so"],
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsoft_attestation_cert-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/libsoft_attestation_cert-v31.so"],
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcppbor_external-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/libcppbor_external-v31.so"],
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcppcose_rkp-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/libcppcose_rkp-v31.so"],
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
 // Stock MediaTek camera data uses a custom, non-XML grammar despite its suffix.
 prebuilt_etc {
     name: "gma_custom.xml",
