@@ -7,7 +7,9 @@ service tee-supplicant /vendor/bin/tee-supplicant
     disabled
 
 
-on fs
+# /mnt/vendor/persist is mounted during the fs phase.  Starting MiTEE from the
+# same trigger is ordering-dependent and can run before that mount completes.
+on post-fs
     write /proc/bootprof "init tee-supplicant"
    # set SELinux security contexts on upgrade or policy update
     restorecon_recursive /mnt/vendor/persist
