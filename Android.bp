@@ -17346,6 +17346,8 @@ cc_prebuilt_binary {
     name: "android.hardware.bluetooth_1.1-service-mediatek",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek"],
+    stem: "android.hardware.bluetooth@1.1-service-mediatek",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17358,6 +17360,8 @@ cc_prebuilt_binary {
     name: "android.hardware.drm_1.4-service.clearkey",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.clearkey"],
+    stem: "android.hardware.drm@1.4-service.clearkey",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17370,6 +17374,8 @@ cc_prebuilt_binary {
     name: "android.hardware.drm_1.4-service.widevine",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine"],
+    stem: "android.hardware.drm@1.4-service.widevine",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17382,6 +17388,8 @@ cc_prebuilt_binary {
     name: "android.hardware.dumpstate_1.1-service.xiaomi",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi"],
+    stem: "android.hardware.dumpstate@1.1-service.xiaomi",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17394,6 +17402,8 @@ cc_prebuilt_binary {
     name: "android.hardware.gnss-service.mediatek",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek"],
+    stem: "android.hardware.gnss-service.mediatek",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17406,6 +17416,8 @@ cc_prebuilt_binary {
     name: "android.hardware.lights-service.mediatek",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.lights-service.mediatek"],
+    stem: "android.hardware.lights-service.mediatek",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17418,6 +17430,8 @@ cc_prebuilt_binary {
     name: "android.hardware.media.c2_1.2-mediatek",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek"],
+    stem: "android.hardware.media.c2@1.2-mediatek",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17430,6 +17444,8 @@ cc_prebuilt_binary {
     name: "android.hardware.media.c2_1.2-mediatek-64b",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b"],
+    stem: "android.hardware.media.c2@1.2-mediatek-64b",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17442,6 +17458,8 @@ cc_prebuilt_binary {
     name: "android.hardware.neuralnetworks-shim-service-mtk",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk"],
+    stem: "android.hardware.neuralnetworks-shim-service-mtk",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17454,6 +17472,8 @@ cc_prebuilt_binary {
     name: "android.hardware.secure_element_1.2-service-mediatek",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek"],
+    stem: "android.hardware.secure_element@1.2-service-mediatek",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17466,6 +17486,8 @@ cc_prebuilt_binary {
     name: "android.hardware.security.keymint_1.0-service.mitee",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.security.keymint@1.0-service.mitee"],
+    stem: "android.hardware.security.keymint@1.0-service.mitee",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17478,6 +17500,8 @@ cc_prebuilt_binary {
     name: "android.hardware.sensors_2.1-service.multihal-mediatek",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.sensors@2.1-service.multihal-mediatek"],
+    stem: "android.hardware.sensors@2.1-service.multihal-mediatek",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17490,6 +17514,8 @@ cc_prebuilt_binary {
     name: "android.hardware.thermal_2.0-service.mtk",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk"],
+    stem: "android.hardware.thermal@2.0-service.mtk",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17502,6 +17528,8 @@ cc_prebuilt_binary {
     name: "android.hardware.usb_1.2-service-mediatekv2",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2"],
+    stem: "android.hardware.usb@1.2-service-mediatekv2",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17514,6 +17542,8 @@ cc_prebuilt_binary {
     name: "android.hardware.wifi_1.0-service-lazy",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy"],
+    stem: "android.hardware.wifi@1.0-service-lazy",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17526,6 +17556,8 @@ cc_prebuilt_binary {
     name: "camerahalserver",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/camerahalserver"],
+    stem: "camerahalserver",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17538,6 +17570,8 @@ cc_prebuilt_binary {
     name: "mfp-daemon",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/mfp-daemon"],
+    stem: "mfp-daemon",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17563,6 +17597,8 @@ cc_prebuilt_binary {
     name: "camerahalserver_bin",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/mt6895/camerahalserver"],
+    stem: "camerahalserver",
+    relative_install_path: "hw/mt6895",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17575,6 +17611,8 @@ cc_prebuilt_binary {
     name: "mtkfusionrild",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/mtkfusionrild"],
+    stem: "mtkfusionrild",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17587,6 +17625,8 @@ cc_prebuilt_binary {
     name: "tetheroffloadservice",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/tetheroffloadservice"],
+    stem: "tetheroffloadservice",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17599,6 +17639,8 @@ cc_prebuilt_binary {
     name: "vendor.dolby_3_8_5.hardware.dms_2.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.dolby_3_8_5.hardware.dms@2.0-service"],
+    stem: "vendor.dolby_3_8_5.hardware.dms@2.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17611,6 +17653,8 @@ cc_prebuilt_binary {
     name: "vendor.dolby_3_8_5.media.c2_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.dolby_3_8_5.media.c2@1.0-service"],
+    stem: "vendor.dolby_3_8_5.media.c2@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17623,6 +17667,8 @@ cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.aee_1.1-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service"],
+    stem: "vendor.mediatek.hardware.aee@1.1-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17635,6 +17681,8 @@ cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.keymaster_attestation_1.1-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service"],
+    stem: "vendor.mediatek.hardware.keymaster_attestation@1.1-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17647,6 +17695,8 @@ cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.mmagent_1.1-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service"],
+    stem: "vendor.mediatek.hardware.mmagent@1.1-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17659,6 +17709,8 @@ cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.mms_1.6-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service"],
+    stem: "vendor.mediatek.hardware.mms@1.6-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17671,6 +17723,8 @@ cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.mtkpower_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service"],
+    stem: "vendor.mediatek.hardware.mtkpower@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17683,6 +17737,8 @@ cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.nvram_1.1-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service"],
+    stem: "vendor.mediatek.hardware.nvram@1.1-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17695,6 +17751,8 @@ cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.nwk_opt_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service"],
+    stem: "vendor.mediatek.hardware.nwk_opt@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17707,6 +17765,8 @@ cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.pq_2.2-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service"],
+    stem: "vendor.mediatek.hardware.pq@2.2-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17719,6 +17779,8 @@ cc_prebuilt_binary {
     name: "vendor.nxp.hardware.nfc_2.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service"],
+    stem: "vendor.nxp.hardware.nfc@2.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17731,6 +17793,8 @@ cc_prebuilt_binary {
     name: "vendor.qti.sla.service_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.qti.sla.service@1.0-service"],
+    stem: "vendor.qti.sla.service@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17743,6 +17807,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.cit.wifi_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.cit.wifi@1.0-service"],
+    stem: "vendor.xiaomi.cit.wifi@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17755,6 +17821,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.cld_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.cld@1.0-service"],
+    stem: "vendor.xiaomi.hardware.cld@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17767,6 +17835,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.displayfeature_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service"],
+    stem: "vendor.xiaomi.hardware.displayfeature@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17779,6 +17849,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.dtool_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service"],
+    stem: "vendor.xiaomi.hardware.dtool@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17791,6 +17863,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.micharge_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service"],
+    stem: "vendor.xiaomi.hardware.micharge@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17803,6 +17877,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.mimd_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.mimd@1.0-service"],
+    stem: "vendor.xiaomi.hardware.mimd@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17815,6 +17891,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.miperf_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.miperf@1.0-service"],
+    stem: "vendor.xiaomi.hardware.miperf@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17827,6 +17905,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.misys_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service"],
+    stem: "vendor.xiaomi.hardware.misys@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17839,6 +17919,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.misys_2.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service"],
+    stem: "vendor.xiaomi.hardware.misys@2.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17851,6 +17933,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.misys_3.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service"],
+    stem: "vendor.xiaomi.hardware.misys@3.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17863,6 +17947,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.misys_4.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@4.0-service"],
+    stem: "vendor.xiaomi.hardware.misys@4.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17875,6 +17961,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.secure_element_1.2-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.secure_element@1.2-service"],
+    stem: "vendor.xiaomi.hardware.secure_element@1.2-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17887,6 +17975,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.vibratorfeature.service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service"],
+    stem: "vendor.xiaomi.hardware.vibratorfeature.service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17899,6 +17989,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hidl.minet_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hidl.minet@1.0-service"],
+    stem: "vendor.xiaomi.hidl.minet@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17911,6 +18003,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hidl.miwill_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hidl.miwill@1.0-service"],
+    stem: "vendor.xiaomi.hidl.miwill@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17923,6 +18017,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.hw.touchfeature_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service"],
+    stem: "vendor.xiaomi.hw.touchfeature@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17935,6 +18031,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.sensor.citsensorservice_1.1-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice@1.1-service"],
+    stem: "vendor.xiaomi.sensor.citsensorservice@1.1-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17947,6 +18045,8 @@ cc_prebuilt_binary {
     name: "vendor.xiaomi.sensor.communicate_1.0-service",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.sensor.communicate@1.0-service"],
+    stem: "vendor.xiaomi.sensor.communicate@1.0-service",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
@@ -17959,6 +18059,8 @@ cc_prebuilt_binary {
     name: "vtservice_hidl",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vtservice_hidl"],
+    stem: "vtservice_hidl",
+    relative_install_path: "hw",
     check_elf_files: false,
     strip: {
         none: true,
