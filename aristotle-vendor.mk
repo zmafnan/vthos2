@@ -10,7 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/odm/etc/device_info_qr_config.yml:$(TARGET_COPY_OUT_ODM)/etc/device_info_qr_config.yml \
     vendor/xiaomi/aristotle/proprietary/odm/etc/init/mrm_mitee.rc:$(TARGET_COPY_OUT_ODM)/etc/init/mrm_mitee.rc \
     vendor/xiaomi/aristotle/proprietary/odm/etc/setting.xml:$(TARGET_COPY_OUT_ODM)/etc/setting.xml \
-    vendor/xiaomi/aristotle/proprietary/system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.audio.parameter_parser.service.rc \
     vendor/xiaomi/aristotle/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/xiaomi/aristotle/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
     vendor/xiaomi/aristotle/proprietary/vendor/bin/cameratest:$(TARGET_COPY_OUT_VENDOR)/bin/cameratest \
@@ -471,7 +470,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.qti.sla.service@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.sla.service@1.0-service.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.xiaomi.cit.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.cit.wifi@1.0-service.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/vendor.xiaomi.hardware.cld@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.cld@1.0-service.rc \
@@ -1007,7 +1005,6 @@ PRODUCT_PACKAGES += \
     aee_aedv64_v2 \
     aee_dumpstatev_v2 \
     aeev_v2 \
-    android.hardware.audio.parameter_parser.service \
     android.hardware.audio_6.0-impl-mediatek \
     android.hardware.audio_7.0-impl-mediatek \
     android.hardware.audio_7.1-impl-mediatek \
@@ -2047,10 +2044,10 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.rcs_2.0 \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
     vendor.mediatek.hardware.videotelephony_1.0 \
+    vendor.mediatek.hardware.videotelephony_1.0_system_ext \
     vendor.mediatek.hardware.videotelephony_1.0-impl \
     vendor.mediatek.hardware.wifi.hostapd_ext_1.0 \
     vendor.nxp.hardware.nfc_2.0 \
-    vendor.nxp.hardware.nfc_2.0-service \
     vendor.qti.sla.service_1.0 \
     vendor.qti.sla.service_1.0-impl \
     vendor.qti.sla.service_1.0-service \
@@ -2136,6 +2133,7 @@ PRODUCT_PACKAGES += \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_mt6895_ISP_info.db \
     vendor_lib64_egl_libGLES_mali.so \
     vendor_lib64_hw_audio.primary.mt6895.so \
+    vendor_lib64_hw_fingerprint.goodix_fod.default.so \
     vendor_lib64_mt6895_aristotleimx596_mipi_raw_IdxMgr.so \
     vendor_lib64_mt6895_aristotleimx596_mipi_raw_tuning.so \
     vendor_lib64_mt6895_aristotleimx707_mipi_raw_IdxMgr.so \
@@ -2441,6 +2439,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_mt6895_mtk000_mipi_raw_tuning.so \
     vendor_lib_egl_libGLES_mali.so \
     vendor_lib_hw_audio.primary.mt6895.so \
+    vendor_lib_hw_fingerprint.goodix_fod.default.so \
     vendor_lib_mt6895_aristotleimx596_mipi_raw_IdxMgr.so \
     vendor_lib_mt6895_aristotleimx596_mipi_raw_tuning.so \
     vendor_lib_mt6895_aristotleimx707_mipi_raw_IdxMgr.so \

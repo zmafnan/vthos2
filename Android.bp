@@ -16606,6 +16606,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.videotelephony_1.0_system_ext",
+    stem: "vendor.mediatek.hardware.videotelephony@1.0",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    compile_multilib: "64",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so"],
+        },
+    },
+    check_elf_files: false,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.wifi.hostapd_ext_1.0",
     stem: "vendor.mediatek.hardware.wifi.hostapd_ext@1.0",
     owner: "xiaomi",
@@ -17348,19 +17365,6 @@ cc_prebuilt_binary {
         none: true,
     },
     compile_multilib: "64",
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.audio.parameter_parser.service",
-    relative_install_path: "hw",
-    owner: "xiaomi",
-    srcs: ["proprietary/system_ext/bin/hw/android.hardware.audio.parameter_parser.service"],
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    system_ext_specific: true,
 }
 
 cc_prebuilt_binary {
@@ -18339,20 +18343,6 @@ cc_prebuilt_binary {
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service"],
     stem: "vendor.mediatek.hardware.pq@2.2-service",
-    relative_install_path: "hw",
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.nxp.hardware.nfc_2.0-service",
-    owner: "xiaomi",
-    srcs: ["proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service"],
-    stem: "vendor.nxp.hardware.nfc@2.0-service",
     relative_install_path: "hw",
     check_elf_files: false,
     strip: {
@@ -19627,6 +19617,13 @@ install_symlink {
 }
 
 install_symlink {
+    name: "vendor_lib_hw_fingerprint.goodix_fod.default.so",
+    soc_specific: true,
+    installed_location: "lib/hw/fingerprint.goodix_fod.default.so",
+    symlink_target: "/vendor/lib/hw/fingerprint.goodix_fod.so",
+}
+
+install_symlink {
     name: "vendor_lib_mt6895_aristotleimx596_mipi_raw_IdxMgr.so",
     soc_specific: true,
     installed_location: "lib/mt6895/aristotleimx596_mipi_raw_IdxMgr.so",
@@ -20128,6 +20125,13 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib64/hw/audio.primary.mt6895.so",
     symlink_target: "/vendor/lib64/hw/audio.primary.mediatek.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_hw_fingerprint.goodix_fod.default.so",
+    soc_specific: true,
+    installed_location: "lib64/hw/fingerprint.goodix_fod.default.so",
+    symlink_target: "/vendor/lib64/hw/fingerprint.goodix_fod.so",
 }
 
 install_symlink {
