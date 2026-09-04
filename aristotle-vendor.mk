@@ -447,7 +447,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/mcfota_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mcfota_service.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/mi_ic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ic.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/mi_ric.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ric.rc \
@@ -1029,7 +1028,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator_4.0-impl-mediatek \
     android.hardware.graphics.allocator@4.0-service-mediatek.mt6895 \
     android.hardware.graphics.mapper_4.0-impl-mediatek \
-    android.hardware.lights-service.mediatek \
     android.hardware.media.c2_1.2-mediatek \
     android.hardware.media.c2_1.2-mediatek-64b \
     android.hardware.neuralnetworks-shim-service-mtk \
