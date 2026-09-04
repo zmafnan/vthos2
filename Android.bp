@@ -16797,6 +16797,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.xiaomi.hardware.displayfeature_1.0",
+    stem: "vendor.xiaomi.hardware.displayfeature@1.0",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    compile_multilib: "64",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so"],
+        },
+    },
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.dtool_1.0",
     stem: "vendor.xiaomi.hardware.dtool@1.0",
     owner: "xiaomi",

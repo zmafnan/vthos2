@@ -2061,6 +2061,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.cld_1.0 \
     vendor.xiaomi.hardware.cld_1.0-impl \
     vendor.xiaomi.hardware.cld_1.0-service \
+    vendor.xiaomi.hardware.displayfeature_1.0 \
     vendor.xiaomi.hardware.displayfeature_1.0-impl \
     vendor.xiaomi.hardware.displayfeature_1.0-service \
     vendor.xiaomi.hardware.dtool_1.0 \
