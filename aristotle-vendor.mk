@@ -2118,6 +2118,11 @@ PRODUCT_PACKAGES += \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_pd_mt6895_ParameterDB_pd.db \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_pipeline_mt6895_ParameterDB_pipeline.db \
     vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek \
+    vendor_lib64_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so \
+    vendor_lib64_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so \
+    vendor_lib_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so \
+    vendor_lib_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so \
+    vendor_lib64_hw_android_hardware_camera_provider@2_6-impl-mediatek_so \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_tone_mt6895_ParameterDB_tone.db \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_aristotleimx596_mipi_raw_mt6895_ISP_mapping.db \
     vendor_bin_crossbuild_DataSet_SQLiteModule_db_tuning_DB_aristotleimx596_mipi_raw_mt6895_ISP_param.db \

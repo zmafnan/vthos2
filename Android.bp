@@ -290,6 +290,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.audio_6.0-impl-mediatek",
+    stem: "android.hardware.audio@6.0-impl-mediatek",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -309,6 +311,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.audio_7.0-impl-mediatek",
+    stem: "android.hardware.audio@7.0-impl-mediatek",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -328,6 +332,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.audio_7.1-impl-mediatek",
+    stem: "android.hardware.audio@7.1-impl-mediatek",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -347,6 +353,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth_1.1-impl-mediatek",
+    stem: "android.hardware.bluetooth@1.1-impl-mediatek",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -366,6 +374,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.boot_1.0-impl-1.2-mtkimpl",
+    stem: "android.hardware.boot@1.0-impl-1.2-mtkimpl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -449,6 +459,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider_2.6-impl-mediatek",
+    stem: "android.hardware.camera.provider@2.6-impl-mediatek",
+    relative_install_path: "hw/mt6895",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -465,6 +477,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gnss-impl-mediatek",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -481,6 +494,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gnss_2.1-impl-mediatek",
+    stem: "android.hardware.gnss@2.1-impl-mediatek",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -497,6 +512,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.allocator_4.0-impl-mediatek",
+    stem: "android.hardware.graphics.allocator@4.0-impl-mediatek",
+    relative_install_path: "hw/mt6895",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -516,6 +533,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.mapper_4.0-impl-mediatek",
+    stem: "android.hardware.graphics.mapper@4.0-impl-mediatek",
+    relative_install_path: "hw/mt6895",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -551,6 +570,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.sensors_2.X-subhal-mediatek",
+    stem: "android.hardware.sensors@2.X-subhal-mediatek",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -567,6 +588,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.thermal_2.0-impl",
+    stem: "android.hardware.thermal@2.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -773,6 +796,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.primary.mediatek",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -792,6 +816,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.r_submix.mediatek",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -811,6 +836,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.r_submix.mt6895",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -868,6 +894,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.fingerprints.extension_3.0",
+    stem: "com.fingerprints.extension@3.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -884,6 +911,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.arcsoftsr",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -900,6 +928,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.capbokeh",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -916,6 +945,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.capdepth",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -932,6 +962,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.caphdr",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -948,6 +979,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.depurple",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -964,6 +996,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.hdr",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -980,6 +1013,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.hwjpeg",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -996,6 +1030,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.hwproc",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1012,6 +1047,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.ldc",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1028,6 +1064,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.memcpy",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1044,6 +1081,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.miaideblur",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1060,6 +1098,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.miaiie",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1076,6 +1115,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.mibokeh",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1092,6 +1132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.miellc",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1108,6 +1149,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.portraitrepair",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1124,6 +1166,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.rawsuperlight",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1140,6 +1183,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.skinbeautifier",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1156,6 +1200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.supernight",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1172,6 +1217,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.swflip",
+    relative_install_path: "camera/plugins",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1188,6 +1234,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "consumerir.common",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1207,6 +1254,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "displayfeature.default",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1280,6 +1328,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gatekeeper.default",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1299,6 +1348,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gatekeeper.mitee",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1318,6 +1368,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gps.default",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1337,6 +1388,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gralloc.common",
+    relative_install_path: "hw/mt6895",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2403,6 +2455,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSoftGatekeeper",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3981,6 +4034,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiopreprocessing_mtk",
+    relative_install_path: "soundfx",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -6996,6 +7050,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdlbvol_3_8_5",
+    relative_install_path: "soundfx",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9113,6 +9168,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmigpese_1.0",
+    stem: "libmigpese@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9389,6 +9445,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmisoundfx",
+    relative_install_path: "soundfx",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9446,6 +9503,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmlipay_mitee_1.1",
+    stem: "libmlipay_mitee@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -9659,6 +9717,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmt_mitee_1.3",
+    stem: "libmt_mitee@1.3",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -12334,6 +12393,15 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/libnvram.so"],
         },
     },
+    shared_libs: [
+        "libbase_shim",
+        "liblog",
+        "libbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
     check_elf_files: false,
     soc_specific: true,
 }
@@ -13534,6 +13602,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswdap_3_8_5",
+    relative_install_path: "soundfx",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13553,6 +13622,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswgamedap_3_8_5",
+    relative_install_path: "soundfx",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13572,6 +13642,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswspatializer_3_8_5",
+    relative_install_path: "soundfx",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13610,6 +13681,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswvqe_3_8_5",
+    relative_install_path: "soundfx",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13642,6 +13714,15 @@ cc_prebuilt_library_shared {
             srcs: ["proprietary/vendor/lib/libsysenv.so"],
         },
     },
+    shared_libs: [
+        "libbase_shim",
+        "liblog",
+        "libbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
     check_elf_files: false,
     soc_specific: true,
 }
@@ -14428,6 +14509,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvdrmengine",
+    relative_install_path: "mediadrm",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14647,6 +14729,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.mediatek.V2.0",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14663,6 +14746,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.mt6895",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14717,6 +14801,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sound_trigger.primary.default",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14736,6 +14821,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "thermal_hal",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14755,6 +14841,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.dolby_3_8_5.hardware.dms_2.0-impl",
+    stem: "vendor.dolby_3_8_5.hardware.dms@2.0-impl",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14771,6 +14858,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.dolby_3_8_5.hardware.dms_2.0",
+    stem: "vendor.dolby_3_8_5.hardware.dms@2.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14806,6 +14894,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.aee_1.0",
+    stem: "vendor.mediatek.hardware.aee@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14825,6 +14914,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.aee_1.1",
+    stem: "vendor.mediatek.hardware.aee@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14844,6 +14934,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apmonitor_2.0",
+    stem: "vendor.mediatek.hardware.apmonitor@2.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14863,6 +14954,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.apusys_2.0",
+    stem: "vendor.mediatek.hardware.apuware.apusys@2.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14879,6 +14971,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.apusys_2.1",
+    stem: "vendor.mediatek.hardware.apuware.apusys@2.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14895,6 +14988,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.hmp_1.0",
+    stem: "vendor.mediatek.hardware.apuware.hmp@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14911,6 +15005,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.utils_2.0",
+    stem: "vendor.mediatek.hardware.apuware.utils@2.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14930,6 +15025,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.xrp_1.0",
+    stem: "vendor.mediatek.hardware.apuware.xrp@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14946,6 +15042,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.apuware.xrp_2.0",
+    stem: "vendor.mediatek.hardware.apuware.xrp@2.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14962,6 +15059,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.atci_1.0",
+    stem: "vendor.mediatek.hardware.atci@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14978,6 +15076,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.audio_6.1",
+    stem: "vendor.mediatek.hardware.audio@6.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14997,6 +15096,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.audio_7.1",
+    stem: "vendor.mediatek.hardware.audio@7.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15016,6 +15116,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.audio_8.1",
+    stem: "vendor.mediatek.hardware.audio@8.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15035,6 +15136,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.bluetooth.audio_2.1-impl",
+    stem: "vendor.mediatek.hardware.bluetooth.audio@2.1-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15054,6 +15157,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.bluetooth.audio_2.1",
+    stem: "vendor.mediatek.hardware.bluetooth.audio@2.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15073,6 +15177,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.bluetooth.audio_2.2-impl",
+    stem: "vendor.mediatek.hardware.bluetooth.audio@2.2-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15092,6 +15198,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.bluetooth.audio_2.2",
+    stem: "vendor.mediatek.hardware.bluetooth.audio@2.2",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15111,6 +15218,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.atms_1.0-impl",
+    stem: "vendor.mediatek.hardware.camera.atms@1.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15130,6 +15239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.atms_1.0",
+    stem: "vendor.mediatek.hardware.camera.atms@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15149,6 +15259,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.bgservice_1.0",
+    stem: "vendor.mediatek.hardware.camera.bgservice@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15168,6 +15279,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.bgservice_1.1-impl",
+    stem: "vendor.mediatek.hardware.camera.bgservice@1.1-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15187,6 +15300,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.bgservice_1.1",
+    stem: "vendor.mediatek.hardware.camera.bgservice@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15206,6 +15320,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.ccap_1.0",
+    stem: "vendor.mediatek.hardware.camera.ccap@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15222,6 +15337,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.device_3.6",
+    stem: "vendor.mediatek.hardware.camera.device@3.6",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15238,6 +15354,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.frhandler_1.0",
+    stem: "vendor.mediatek.hardware.camera.frhandler@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15254,6 +15371,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal_1.0",
+    stem: "vendor.mediatek.hardware.camera.isphal@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15270,6 +15388,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal_1.1-impl",
+    stem: "vendor.mediatek.hardware.camera.isphal@1.1-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15286,6 +15406,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.isphal_1.1",
+    stem: "vendor.mediatek.hardware.camera.isphal@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15302,6 +15423,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.postproc_1.0",
+    stem: "vendor.mediatek.hardware.camera.postproc@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15318,6 +15440,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.camera.security_1.0",
+    stem: "vendor.mediatek.hardware.camera.security@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15334,6 +15457,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.clientapi_1.0",
+    stem: "vendor.mediatek.hardware.clientapi@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15370,6 +15494,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.dmc_1.0",
+    stem: "vendor.mediatek.hardware.dmc@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15386,6 +15511,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.dmc_1.1",
+    stem: "vendor.mediatek.hardware.dmc@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15402,6 +15528,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.dmc_1.2",
+    stem: "vendor.mediatek.hardware.dmc@1.2",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15418,6 +15545,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.engineermode_1.0",
+    stem: "vendor.mediatek.hardware.engineermode@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15434,6 +15562,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.engineermode_1.1",
+    stem: "vendor.mediatek.hardware.engineermode@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15450,6 +15579,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.engineermode_1.2",
+    stem: "vendor.mediatek.hardware.engineermode@1.2",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15466,6 +15596,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.engineermode_1.3",
+    stem: "vendor.mediatek.hardware.engineermode@1.3",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15482,6 +15613,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.keymaster_attestation_1.0",
+    stem: "vendor.mediatek.hardware.keymaster_attestation@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15501,6 +15633,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.keymaster_attestation_1.1-impl",
+    stem: "vendor.mediatek.hardware.keymaster_attestation@1.1-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15520,6 +15654,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.keymaster_attestation_1.1",
+    stem: "vendor.mediatek.hardware.keymaster_attestation@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15539,6 +15674,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.lbs_1.0",
+    stem: "vendor.mediatek.hardware.lbs@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15555,6 +15691,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.log_1.0",
+    stem: "vendor.mediatek.hardware.log@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15571,6 +15708,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mdmonitor_1.0",
+    stem: "vendor.mediatek.hardware.mdmonitor@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15747,6 +15885,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms_1.6-impl",
+    relative_install_path: "hw",
     stem: "vendor.mediatek.hardware.mms@1.6-impl",
     owner: "xiaomi",
     strip: {
@@ -15787,6 +15926,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mtkpower_1.2-impl",
+    stem: "vendor.mediatek.hardware.mtkpower@1.2-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15856,6 +15997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.netdagent_1.0",
+    stem: "vendor.mediatek.hardware.netdagent@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15875,6 +16017,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.neuropilot.agent_1.0",
+    stem: "vendor.mediatek.hardware.neuropilot.agent@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15894,6 +16037,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.neuropilot.agent_1.1",
+    stem: "vendor.mediatek.hardware.neuropilot.agent@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15913,6 +16057,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.neuropilot.agent_1.2",
+    stem: "vendor.mediatek.hardware.neuropilot.agent@1.2",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15993,6 +16138,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.nwk_opt_1.0",
+    stem: "vendor.mediatek.hardware.nwk_opt@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16012,6 +16158,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.power_1.1",
+    stem: "vendor.mediatek.hardware.power@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16028,6 +16175,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.power_2.0",
+    stem: "vendor.mediatek.hardware.power@2.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16184,6 +16332,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.pq_2.15-impl",
+    relative_install_path: "hw",
     stem: "vendor.mediatek.hardware.pq@2.15-impl",
     owner: "xiaomi",
     strip: {
@@ -16384,6 +16533,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.rcs_2.0",
+    stem: "vendor.mediatek.hardware.rcs@2.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16416,6 +16566,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.videotelephony_1.0-impl",
+    stem: "vendor.mediatek.hardware.videotelephony@1.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16435,6 +16587,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.videotelephony_1.0",
+    stem: "vendor.mediatek.hardware.videotelephony@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16454,6 +16607,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.wifi.hostapd_ext_1.0",
+    stem: "vendor.mediatek.hardware.wifi.hostapd_ext@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16470,6 +16624,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.nxp.hardware.nfc_2.0",
+    stem: "vendor.nxp.hardware.nfc@2.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16489,6 +16644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.sla.service_1.0-impl",
+    stem: "vendor.qti.sla.service@1.0-impl",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16508,6 +16664,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.sla.service_1.0",
+    stem: "vendor.qti.sla.service@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16527,6 +16684,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.cit.wifi_1.0",
+    stem: "vendor.xiaomi.cit.wifi@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16543,6 +16701,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.bgservice_1.0-impl",
+    stem: "vendor.xiaomi.hardware.bgservice@1.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16559,6 +16719,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.bgservice_1.0",
+    stem: "vendor.xiaomi.hardware.bgservice@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16575,6 +16736,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.cld_1.0-impl",
+    stem: "vendor.xiaomi.hardware.cld@1.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16594,6 +16757,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.cld_1.0",
+    stem: "vendor.xiaomi.hardware.cld@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16613,6 +16777,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.displayfeature_1.0-impl",
+    stem: "vendor.xiaomi.hardware.displayfeature@1.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16632,6 +16798,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.dtool_1.0",
+    stem: "vendor.xiaomi.hardware.dtool@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16648,6 +16815,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.micharge_1.0-impl",
+    stem: "vendor.xiaomi.hardware.micharge@1.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16667,6 +16836,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.micharge_1.0",
+    stem: "vendor.xiaomi.hardware.micharge@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16686,6 +16856,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.mimd_1.0",
+    stem: "vendor.xiaomi.hardware.mimd@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16702,6 +16873,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.miperf_1.0-impl",
+    stem: "vendor.xiaomi.hardware.miperf@1.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16721,6 +16894,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.miperf_1.0",
+    stem: "vendor.xiaomi.hardware.miperf@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16758,6 +16932,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.misys_1.0-impl",
+    stem: "vendor.xiaomi.hardware.misys@1.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16777,6 +16953,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.misys_1.0",
+    stem: "vendor.xiaomi.hardware.misys@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16796,6 +16973,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.misys_2.0-impl",
+    stem: "vendor.xiaomi.hardware.misys@2.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16815,6 +16994,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.misys_2.0",
+    stem: "vendor.xiaomi.hardware.misys@2.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16834,6 +17014,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.misys_3.0-impl",
+    stem: "vendor.xiaomi.hardware.misys@3.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16853,6 +17035,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.misys_3.0",
+    stem: "vendor.xiaomi.hardware.misys@3.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16872,6 +17055,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.misys_4.0-impl",
+    stem: "vendor.xiaomi.hardware.misys@4.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16891,6 +17076,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.misys_4.0",
+    stem: "vendor.xiaomi.hardware.misys@4.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16928,6 +17114,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.soterservice_1.0",
+    stem: "vendor.xiaomi.hardware.soterservice@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16947,6 +17134,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hidl.minet_1.0-impl",
+    stem: "vendor.xiaomi.hidl.minet@1.0-impl",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16966,6 +17154,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hidl.minet_1.0",
+    stem: "vendor.xiaomi.hidl.minet@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -16985,6 +17174,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hidl.miwill_1.0-impl",
+    stem: "vendor.xiaomi.hidl.miwill@1.0-impl",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17004,6 +17194,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hidl.miwill_1.0",
+    stem: "vendor.xiaomi.hidl.miwill@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17023,6 +17214,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hw.touchfeature_1.0-impl",
+    stem: "vendor.xiaomi.hw.touchfeature@1.0-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17042,6 +17235,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.sensor.citsensorservice_1.1-impl",
+    stem: "vendor.xiaomi.sensor.citsensorservice@1.1-impl",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17061,6 +17256,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.sensor.citsensorservice_1.1",
+    stem: "vendor.xiaomi.sensor.citsensorservice@1.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17080,6 +17276,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.sensor.communicate_1.0",
+    stem: "vendor.xiaomi.sensor.communicate@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17096,6 +17293,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vulkan.mali",
+    relative_install_path: "hw",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17137,6 +17335,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.audio.parameter_parser.service",
+    relative_install_path: "hw",
     owner: "xiaomi",
     srcs: ["proprietary/system_ext/bin/hw/android.hardware.audio.parameter_parser.service"],
     check_elf_files: false,
@@ -18656,6 +18855,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mlipayd_mitee_1.1",
+    stem: "mlipayd_mitee@1.1",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/mlipayd_mitee@1.1"],
     check_elf_files: false,
@@ -18704,6 +18904,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "dumpfaultd.mt6895_bin",
+    relative_install_path: "mt6895",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/mt6895/dumpfaultd.mt6895"],
     check_elf_files: false,
@@ -18716,6 +18917,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "jpegtool_bin",
+    relative_install_path: "mt6895",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/mt6895/jpegtool"],
     check_elf_files: false,
@@ -18728,6 +18930,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "mtd_mitee_1.3",
+    stem: "mtd_mitee@1.3",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/bin/mtd_mitee@1.3"],
     check_elf_files: false,
@@ -19187,6 +19390,41 @@ install_symlink {
     soc_specific: true,
     installed_location: "bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek",
     symlink_target: "/vendor/bin/hw/mt6895/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895",
+}
+
+install_symlink {
+    name: "vendor_lib64_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so",
+    soc_specific: true,
+    installed_location: "lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so",
+    symlink_target: "/vendor/lib64/hw/mt6895/android.hardware.graphics.allocator@4.0-impl-mediatek.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so",
+    soc_specific: true,
+    installed_location: "lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so",
+    symlink_target: "/vendor/lib64/hw/mt6895/android.hardware.graphics.mapper@4.0-impl-mediatek.so",
+}
+
+install_symlink {
+    name: "vendor_lib_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so",
+    soc_specific: true,
+    installed_location: "lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so",
+    symlink_target: "/vendor/lib/hw/mt6895/android.hardware.graphics.allocator@4.0-impl-mediatek.so",
+}
+
+install_symlink {
+    name: "vendor_lib_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so",
+    soc_specific: true,
+    installed_location: "lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so",
+    symlink_target: "/vendor/lib/hw/mt6895/android.hardware.graphics.mapper@4.0-impl-mediatek.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_hw_android_hardware_camera_provider@2_6-impl-mediatek_so",
+    soc_specific: true,
+    installed_location: "lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so",
+    symlink_target: "/vendor/lib64/hw/mt6895/android.hardware.camera.provider@2.6-impl-mediatek.so",
 }
 
 install_symlink {
