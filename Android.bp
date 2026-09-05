@@ -4,6 +4,9 @@
 //
 
 soong_namespace {
+    imports: [
+        "hardware/mediatek",
+    ],
 }
 
 cc_prebuilt_library_shared {
