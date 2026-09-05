@@ -960,7 +960,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/xiaomi/aristotle/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/xiaomi/aristotle/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
-    vendor/xiaomi/aristotle/proprietary/vendor/lib64/libaibc_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning.so \
     vendor/xiaomi/aristotle/proprietary/vendor/mitee/ta/123af5d1-d6f5-cc54-f78fa19030b2e76a.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/123af5d1-d6f5-cc54-f78fa19030b2e76a.ta \
     vendor/xiaomi/aristotle/proprietary/vendor/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta \
     vendor/xiaomi/aristotle/proprietary/vendor/mitee/ta/2e8fade5-0c7a-46cc-810e6468baee66b9.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/2e8fade5-0c7a-46cc-810e6468baee66b9.ta \
@@ -1223,6 +1222,7 @@ PRODUCT_PACKAGES += \
     libaiawb_p1ggm \
     libaiawb_sun \
     libaiawb_sun_model \
+    libaibc_tuning \
     libaibc_tuning_p2 \
     libaibc_tuning_p3 \
     libaicapturecore \

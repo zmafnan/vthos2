@@ -3266,6 +3266,22 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libaibc_tuning",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    compile_multilib: "64",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libaibc_tuning.so"],
+        },
+    },
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libaibc_tuning_p2",
     owner: "xiaomi",
     strip: {
