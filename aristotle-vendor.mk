@@ -409,7 +409,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/android.hardware.security.keymint-service.mitee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.mitee.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/android.hardware.sensors@2.1-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.1-service.multihal-mediatek.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
-    vendor/xiaomi/aristotle/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/atci_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atci_service.rc \
     vendor/xiaomi/aristotle/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
@@ -1035,7 +1034,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors_2.X-subhal-mediatek \
     android.hardware.thermal_2.0-impl \
     android.hardware.thermal_2.0-service.mtk \
-    android.hardware.usb_1.2-service-mediatekv2 \
     android.hardware.vibrator-V1-ndk_platform \
     android.hardware.wifi_1.0-service-lazy \
     androidx.camera.extensions.impl \
