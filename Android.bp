@@ -10,6 +10,16 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+    name: "libalsautils-v31",
+    owner: "xiaomi",
+    srcs: ["proprietary/vendor/lib64/libalsautils-v31.so"],
+    compile_multilib: "64",
+    check_elf_files: false,
+    strip: { none: true },
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "android.hardware.security.keymint-V1-ndk_platform-v31",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/lib64/android.hardware.security.keymint-V1-ndk_platform.so"],
