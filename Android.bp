@@ -22566,3 +22566,22 @@ install_symlink {
     installed_location: "lib64/mt6895/mtk000_mipi_raw_tuning.so",
     symlink_target: "/vendor/lib64/mtk000_mipi_raw_tuning.so",
 }
+
+cc_prebuilt_library_shared {
+    name: "libbt-vendor",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    compile_multilib: "both",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libbt-vendor.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/libbt-vendor.so"],
+        },
+    },
+    check_elf_files: false,
+    soc_specific: true,
+}
