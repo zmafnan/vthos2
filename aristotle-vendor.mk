@@ -979,6 +979,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aristotle/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
 
 PRODUCT_PACKAGES += \
+    libc++_shared \
     atcid.rc \
     dmc_core.rc \
     em_hidl_user.rc \

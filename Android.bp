@@ -20,6 +20,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libc++_shared",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    compile_multilib: "64",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libc++_shared.so"],
+        },
+    },
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "android.hardware.security.keymint-V1-ndk_platform-v31",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/lib64/android.hardware.security.keymint-V1-ndk_platform.so"],
