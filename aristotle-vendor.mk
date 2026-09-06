@@ -1599,6 +1599,7 @@ PRODUCT_PACKAGES += \
     libmp3dec_mtk \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
+    libOpenCL \
     libmpbase \
     libmsbc_mtk \
     libmt_mitee_1.3 \
